@@ -1,8 +1,8 @@
-title: DashLord example
-description: Bonnes pratiques techniques
-entity: Ministères sociaux
+title: DashLord FFSS
+description: Suite EOS
+entity: FFSS
 footer: Powered by SocialGouv
-marianne: false
+marianne: true
 tools:
   404: true
   screenshot: true
@@ -14,12 +14,10 @@ tools:
   lighthouse: true
   thirdparties: true
   nuclei: true
-  updownio: false
+  updownio: true
   dependabot: true
   codescan: true
   stats: false
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-  - url: https://beta.gouv.fr
+  - url: https://passager.serveureos.org/
+  - url: https://pp.passager.serveureos.org/
