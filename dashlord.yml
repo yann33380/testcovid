@@ -2,7 +2,7 @@ title: DashLord FFSS
 description: Suite EOS
 entity: FFSS
 footer: Powered by SocialGouv
-marianne: true
+marianne: false
 tools:
   404: true
   screenshot: true
@@ -14,7 +14,7 @@ tools:
   lighthouse: true
   thirdparties: true
   nuclei: true
-  updownio: true
+  updownio: false
   dependabot: true
   codescan: true
   stats: false
