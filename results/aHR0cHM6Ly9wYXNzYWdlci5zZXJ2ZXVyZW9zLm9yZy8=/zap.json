@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Tue, 28 Dec 2021 17:49:01",
+	"@generated": "Sun, 2 Jan 2022 00:53:09",
 	"site":[ 
 		{
 			"@name": "https://passager.serveureos.org",
@@ -20,6 +20,13 @@
 					"instances":[ 
 						{
 							"uri": "https://passager.serveureos.org/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -47,7 +54,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header, to achieve optimal browser support: \"Content-Security-Policy\" for Chrome 25+, Firefox 23+ and Safari 7+, \"X-Content-Security-Policy\" for Firefox 4.0+ and Internet Explorer 10+, and \"X-WebKit-CSP\" for Chrome 14+ and Safari 6+.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
@@ -79,7 +86,7 @@
 					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "59"
+					"sourceid": "61"
 				},
 				{
 					"pluginid": "90003",
@@ -99,6 +106,13 @@
 							"evidence": "<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i\" rel=\"stylesheet\">"
 						},
 						{
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i\" rel=\"stylesheet\">"
+						},
+						{
 							"uri": "https://passager.serveureos.org/forms/",
 							"method": "POST",
 							"param": "",
@@ -106,7 +120,7 @@
 							"evidence": "<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i\" rel=\"stylesheet\">"
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
@@ -138,7 +152,7 @@
 					"reference": "<p>https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2019-11358</p><p>https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "46"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10020",
@@ -158,6 +172,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
+							"method": "GET",
+							"param": "X-Frame-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://passager.serveureos.org/forms/",
 							"method": "POST",
 							"param": "X-Frame-Options",
@@ -165,7 +186,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it's set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive. </p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
@@ -237,7 +258,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "46"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10015",
@@ -250,27 +271,20 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content.</p>",
 					"instances":[ 
 						{
-							"uri": "https://passager.serveureos.org/",
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
 							"method": "GET",
-							"param": "Cache-Control",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/forms/",
-							"method": "POST",
 							"param": "Cache-Control",
 							"attack": "",
 							"evidence": ""
 						}
 					],
-					"count": "2",
+					"count": "1",
 					"solution": "<p>Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "32"
 				},
 				{
 					"pluginid": "10063",
@@ -297,7 +311,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/js/qrcode.js",
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -341,102 +355,6 @@
 					"sourceid": "1"
 				},
 				{
-					"pluginid": "10035",
-					"alertRef": "10035",
-					"alert": "Strict-Transport-Security Header Not Set",
-					"name": "Strict-Transport-Security Header Not Set",
-					"riskcode": "1",
-					"confidence": "3",
-					"riskdesc": "Low (High)",
-					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
-					"instances":[ 
-						{
-							"uri": "https://passager.serveureos.org/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/css/custom/eos.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/css/main.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/img/logo.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/js/global.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/vendor/font-awesome-4.7/css/font-awesome.min.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/vendor/jquery/jquery.min.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/vendor/mdi-font/css/material-design-iconic-font.min.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/vendor/select2/select2.min.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						}
-					],
-					"count": "11",
-					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
-					"otherinfo": "",
-					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
-					"cweid": "319",
-					"wascid": "15",
-					"sourceid": "1"
-				},
-				{
 					"pluginid": "10096",
 					"alertRef": "10096",
 					"alert": "Timestamp Disclosure - Unix",
@@ -465,84 +383,84 @@
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000007551"
+							"evidence": "0000008039"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000008021"
+							"evidence": "0000008509"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009547"
+							"evidence": "0000009888"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009613"
+							"evidence": "0000009954"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009719"
+							"evidence": "0000010060"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009830"
+							"evidence": "0000010171"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009944"
+							"evidence": "0000010285"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010393"
+							"evidence": "0000010734"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010528"
+							"evidence": "0000010869"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010745"
+							"evidence": "0000011086"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000011249"
+							"evidence": "0000011590"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000016100"
+							"evidence": "0000016441"
 						}
 					],
 					"count": "14",
@@ -551,7 +469,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "85"
+					"sourceid": "87"
 				},
 				{
 					"pluginid": "10021",
@@ -585,13 +503,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/img/FR.png",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://passager.serveureos.org/img/logo-gouvernement.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -607,6 +518,13 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/js/global.js",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -681,6 +599,13 @@
 							"evidence": "darkCount/moduleCount/moduleCount-50"
 						},
 						{
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+						},
+						{
 							"uri": "https://passager.serveureos.org/forms/",
 							"method": "POST",
 							"param": "",
@@ -688,7 +613,7 @@
 							"evidence": "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>\uFFFD\\x0016\uFFFD\uFFFDe\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDM6w\uFFFD\u03B7\uFFFD\uFFFD\\x0010w\uFFFD\uFFFD\uFFFD\\x0006\uFFFD\\x0014RA\\x000cR|U\uFFFD\uFFFDS*\uFFFDW@\uFFFD5\\x001a\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -748,7 +673,40 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "74"
+					"sourceid": "76"
+				},
+				{
+					"pluginid": "90033",
+					"alertRef": "90033",
+					"alert": "Loosely Scoped Cookie",
+					"name": "Loosely Scoped Cookie",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>Cookies can be scoped by domain or path. This check is only concerned with domain scope.The domain scope applied to a cookie determines which domains can access it. For example, a cookie can be scoped strictly to a subdomain e.g. www.nottrusted.com, or loosely scoped to a parent domain e.g. nottrusted.com. In the latter case, any subdomain of nottrusted.com can access the cookie. Loosely scoped cookies are common in mega-applications like google.com and live.com. Cookies set from a subdomain like app.foo.bar are transmitted only to that domain by the browser. However, cookies scoped to a parent-level domain may be transmitted to the parent, or any subdomain of the parent.</p>",
+					"instances":[ 
+						{
+							"uri": "https://passager.serveureos.org/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://passager.serveureos.org/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						}
+					],
+					"count": "2",
+					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=46t0otqougeejn80ohgdg5kt6v</p><p></p>",
+					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
+					"cweid": "565",
+					"wascid": "15",
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -781,7 +739,33 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "46"
+					"sourceid": "48"
+				},
+				{
+					"pluginid": "10049",
+					"alertRef": "10049",
+					"alert": "Non-Storable Content",
+					"name": "Non-Storable Content",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
+					"instances":[ 
+						{
+							"uri": "https://passager.serveureos.org/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "no-store"
+						}
+					],
+					"count": "1",
+					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
+					"otherinfo": "",
+					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
+					"cweid": "524",
+					"wascid": "13",
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -793,13 +777,6 @@
 					"riskdesc": "Informational (Medium)",
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
-						{
-							"uri": "https://passager.serveureos.org/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
 						{
 							"uri": "https://passager.serveureos.org/css/custom/eos.css",
 							"method": "GET",
@@ -822,7 +799,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/js/global.js",
+							"uri": "https://passager.serveureos.org/mentions-legales.php",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -871,13 +848,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "11",
+					"count": "10",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "46"
 				},
 				{
 					"pluginid": "10031",
@@ -980,7 +957,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "75"
+					"sourceid": "77"
 				}
 			]
 		}
