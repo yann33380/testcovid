@@ -40,14 +40,15 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "s8egvute5fookbsl1q43h0ceia",
-      "domain": "pp.passager.serveureos.org",
+      "value": "f35ji0i7kc33ljcorq6dtnovga",
+      "domain": ".serveureos.org",
       "path": "/",
       "expires": -1,
       "size": 35,
-      "httpOnly": false,
-      "secure": false,
+      "httpOnly": true,
+      "secure": true,
       "session": true,
+      "sameSite": "Strict",
       "sameParty": false,
       "sourceScheme": "Secure",
       "sourcePort": 443
@@ -55,16 +56,19 @@
   ],
   "headers": {
     "server": "nginx",
-    "date": "Tue, 28 Dec 2021 17:49:19 GMT",
-    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 02 Jan 2022 00:53:52 GMT",
+    "content-type": "text/html;charset=UTF-8",
     "content-length": "1615",
     "connection": "keep-alive",
-    "set-cookie": "PHPSESSID=s8egvute5fookbsl1q43h0ceia; path=/",
+    "set-cookie": "PHPSESSID=f35ji0i7kc33ljcorq6dtnovga; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "cache-control": "no-store, no-cache, must-revalidate",
     "pragma": "no-cache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
     "vary": "Accept-Encoding",
-    "content-encoding": "gzip"
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=60; includeSubDomains"
   },
   "endpoints": [
     {
@@ -125,7 +129,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.81.202",
+      "ip": "172.217.13.234",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -179,12 +183,12 @@
     },
     {
       "hostname": "getbootstrap.com",
-      "ip": "104.22.59.100",
+      "ip": "104.22.58.100",
       "geoip": null
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.42",
+      "ip": "69.16.175.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -238,7 +242,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.13.227",
+      "ip": "172.217.0.35",
       "geoip": {
         "continent": {
           "code": "NA",

@@ -346,7 +346,7 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "79 >= 30 days"
+              "finding"      : "75 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -545,11 +545,32 @@
               "finding"      : "0 seconds from localtime"
           }
 ,         {
-              "id"           : "HSTS",
+              "id"           : "HTTP_headerTime",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "not offered"
+              "severity"     : "INFO",
+              "finding"      : "1641084908"
+          }
+,         {
+              "id"           : "HSTS_time",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "max-age too short. 0 days (=60 seconds) < 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "includes subdomains"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "domain is NOT marked for preloading"
           }
 ,         {
               "id"           : "HPKP",
@@ -583,15 +604,29 @@
               "id"           : "cookie_secure",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/1 at '/' marked as secure"
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as secure"
           }
 ,         {
               "id"           : "cookie_httponly",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/1 at '/' marked as HttpOnly"
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as HttpOnly"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -1119,13 +1154,13 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS is not offered"
+              "finding"      : "Grade capped to A. HSTS max-age is too short"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "123"
+              "finding"      : "136"
           }
 ]
