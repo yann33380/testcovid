@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 2 Jan 2022 00:53:09
+		Generated on Sun, 9 Jan 2022 00:54:14
 	</h3>
 
 	
@@ -199,6 +199,11 @@ td {
 				<td align="center">5</td>
 			</tr>
 			<tr>
+				<td><a href="#10020">Missing Anti-clickjacking Header</a></td>
+				<td align="center" class="risk-2">Medium</td>
+				<td align="center">3</td>
+			</tr>
+			<tr>
 				<td><a href="#10099">Source Code Disclosure - SQL</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				<td align="center">1</td>
@@ -212,11 +217,6 @@ td {
 				<td><a href="#10003">Vulnerable JS Library</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				<td align="center">1</td>
-			</tr>
-			<tr>
-				<td><a href="#10020">X-Frame-Options Header Not Set</a></td>
-				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10202">Absence of Anti-CSRF Tokens</a></td>
@@ -487,6 +487,140 @@ td {
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/10038/">10038</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-2"><a
+						id="10020"></a>
+						<div>Medium</div></th>
+					<th class="risk-2">Missing Anti-clickjacking Header</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>The response does not include either Content-Security-Policy with &#39;frame-ancestors&#39; directive or X-Frame-Options to protect against &#39;ClickJacking&#39; attacks.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://passager.serveureos.org/">https://passager.serveureos.org/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://passager.serveureos.org/mentions-legales.php">https://passager.serveureos.org/mentions-legales.php</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://passager.serveureos.org/forms/">https://passager.serveureos.org/forms/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">POST</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">3</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</div>
+							<br />
+						
+							<div>If you expect the page to be framed only by pages on your server (e.g. it&#39;s part of a FRAMESET) then you&#39;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy&#39;s &quot;frame-ancestors&quot; directive.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">15</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10020/">10020</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
@@ -785,137 +919,6 @@ td {
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/10003/">10003</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
-		
-			<table class="results">
-				<tr height="24">
-					<th width="20%" class="risk-2"><a
-						id="10020"></a>
-						<div>Medium</div></th>
-					<th class="risk-2">X-Frame-Options Header Not Set</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>X-Frame-Options header is not included in the HTTP response to protect against &#39;ClickJacking&#39; attacks.</div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://passager.serveureos.org/">https://passager.serveureos.org/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">X-Frame-Options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://passager.serveureos.org/mentions-legales.php">https://passager.serveureos.org/mentions-legales.php</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">X-Frame-Options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://passager.serveureos.org/forms/">https://passager.serveureos.org/forms/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">POST</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">X-Frame-Options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					<td width="80%">3</td>
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it&#39;s set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it&#39;s part of a FRAMESET) then you&#39;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy&#39;s &quot;frame-ancestors&quot; directive. </div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%">
-							<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%">15</td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/10020/">10020</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
@@ -1615,7 +1618,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000008039</td>
+						<td width="80%">0000007970</td>
 					</tr>
 				
 					<tr>
@@ -1641,7 +1644,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000008509</td>
+						<td width="80%">0000008440</td>
 					</tr>
 				
 					<tr>
@@ -1667,7 +1670,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000009888</td>
+						<td width="80%">0000009819</td>
 					</tr>
 				
 					<tr>
@@ -1693,7 +1696,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000009954</td>
+						<td width="80%">0000009885</td>
 					</tr>
 				
 					<tr>
@@ -1719,7 +1722,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000010060</td>
+						<td width="80%">0000009991</td>
 					</tr>
 				
 					<tr>
@@ -1745,7 +1748,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000010171</td>
+						<td width="80%">0000010102</td>
 					</tr>
 				
 					<tr>
@@ -1771,7 +1774,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000010285</td>
+						<td width="80%">0000010216</td>
 					</tr>
 				
 					<tr>
@@ -1797,7 +1800,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000010734</td>
+						<td width="80%">0000010665</td>
 					</tr>
 				
 					<tr>
@@ -1823,7 +1826,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000010869</td>
+						<td width="80%">0000010800</td>
 					</tr>
 				
 					<tr>
@@ -1849,7 +1852,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000011086</td>
+						<td width="80%">0000011017</td>
 					</tr>
 				
 					<tr>
@@ -1875,7 +1878,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000011590</td>
+						<td width="80%">0000011521</td>
 					</tr>
 				
 					<tr>
@@ -1901,7 +1904,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">0000016441</td>
+						<td width="80%">0000016372</td>
 					</tr>
 				
 				<tr>
