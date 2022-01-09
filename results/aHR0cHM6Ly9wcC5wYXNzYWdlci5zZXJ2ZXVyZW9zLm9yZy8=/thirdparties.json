@@ -40,7 +40,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "f35ji0i7kc33ljcorq6dtnovga",
+      "value": "691kv4g2r8t44te4s25rkpkd6f",
       "domain": ".serveureos.org",
       "path": "/",
       "expires": -1,
@@ -56,11 +56,11 @@
   ],
   "headers": {
     "server": "nginx",
-    "date": "Sun, 02 Jan 2022 00:53:52 GMT",
+    "date": "Sun, 09 Jan 2022 00:55:06 GMT",
     "content-type": "text/html;charset=UTF-8",
     "content-length": "1615",
     "connection": "keep-alive",
-    "set-cookie": "PHPSESSID=f35ji0i7kc33ljcorq6dtnovga; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+    "set-cookie": "PHPSESSID=691kv4g2r8t44te4s25rkpkd6f; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "cache-control": "no-store, no-cache, must-revalidate",
     "pragma": "no-cache",
@@ -68,7 +68,7 @@
     "x-content-type-options": "nosniff",
     "vary": "Accept-Encoding",
     "content-encoding": "gzip",
-    "strict-transport-security": "max-age=60; includeSubDomains"
+    "strict-transport-security": "max-age=3600; includeSubDomains"
   },
   "endpoints": [
     {
@@ -129,7 +129,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.13.234",
+      "ip": "142.250.115.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -183,12 +183,61 @@
     },
     {
       "hostname": "getbootstrap.com",
-      "ip": "104.22.58.100",
-      "geoip": null
+      "ip": "172.67.30.148",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.10",
+      "ip": "69.16.175.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -242,7 +291,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.0.35",
+      "ip": "142.250.68.131",
       "geoip": {
         "continent": {
           "code": "NA",
