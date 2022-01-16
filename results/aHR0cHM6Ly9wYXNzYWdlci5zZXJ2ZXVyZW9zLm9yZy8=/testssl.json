@@ -346,7 +346,7 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "56 >= 30 days"
+              "finding"      : "49 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1641689787"
+              "finding"      : "1642294616"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -613,6 +613,20 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "All (1) at '/' marked as HttpOnly"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -1147,6 +1161,6 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "184"
+              "finding"      : "180"
           }
 ]

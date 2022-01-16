@@ -40,7 +40,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "u6rtmkeimvp87ji3ju90aqstr5",
+      "value": "j00k8k602gm8gc9ktkg96j14gf",
       "domain": ".serveureos.org",
       "path": "/",
       "expires": -1,
@@ -56,14 +56,16 @@
   ],
   "headers": {
     "server": "nginx",
-    "date": "Sun, 09 Jan 2022 00:55:06 GMT",
-    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 16 Jan 2022 00:55:39 GMT",
+    "content-type": "text/html;charset=UTF-8",
     "content-length": "1615",
     "connection": "keep-alive",
-    "set-cookie": "PHPSESSID=u6rtmkeimvp87ji3ju90aqstr5; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+    "set-cookie": "PHPSESSID=j00k8k602gm8gc9ktkg96j14gf; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "cache-control": "no-store, no-cache, must-revalidate",
     "pragma": "no-cache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
     "vary": "Accept-Encoding",
     "content-encoding": "gzip",
     "strict-transport-security": "max-age=3600; includeSubDomains"
@@ -127,7 +129,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.32.10",
+      "ip": "142.250.191.234",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -147,7 +149,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "USA",
+            "de": "Vereinigte Staaten",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -167,7 +169,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "USA",
+            "de": "Vereinigte Staaten",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -181,8 +183,57 @@
     },
     {
       "hostname": "getbootstrap.com",
-      "ip": "104.22.59.100",
-      "geoip": null
+      "ip": "172.67.30.148",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
     },
     {
       "hostname": "code.jquery.com",
@@ -206,7 +257,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "USA",
+            "de": "Vereinigte Staaten",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -226,7 +277,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "USA",
+            "de": "Vereinigte Staaten",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -240,7 +291,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.190.131",
+      "ip": "142.250.191.195",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -260,7 +311,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "USA",
+            "de": "Vereinigte Staaten",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -280,7 +331,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "USA",
+            "de": "Vereinigte Staaten",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
