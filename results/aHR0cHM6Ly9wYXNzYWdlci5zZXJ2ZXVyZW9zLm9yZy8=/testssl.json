@@ -269,7 +269,7 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04B60FFDC4759F1239E1312DB905F8E77D44"
+              "finding"      : "04A853531D5C971F40EFEBA83718FDD16BE5"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "74A33347AB7169D930B6BB76D178127C1B01E89A"
+              "finding"      : "A83FFFA894CADB46DF44AEBED9E42E112417D0C2"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "62D674501E378153AD48FD0EAF1D635E84054CFD4982F294E66E4B2CCE489C9F"
+              "finding"      : "8124E9CB24A48887318015FECB5637D6B752D411FF52609BD049E70628E7688A"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE----- MIIFfTCCBGWgAwIBAgISBLYP/cR1nxI54TEtuQX4531EMA0GCSqGSIb3DQEBCwUA MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD EwJSMzAeFw0yMTEyMDYwNzU3MDdaFw0yMjAzMDYwNzU3MDZaMBkxFzAVBgNVBAMT DnNlcnZldXJlb3Mub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA p50qsuzTxjsUIz1Nvj33IRJu2CAB+yz3MocQaqx1C5fbYnU7ZzSjzAWls2nxKXmi 3uHq/CfpOofdBEz04slH9yzD4M5xmFbTdv+qyrhgpKcKsURDf4tZnfVOXixUgwjM le7A9Eptaf8iCLakpRqiIKe2OK1vUPk3lBlsPAi0kUrgufxRftRurxKLB1LH5hgi D+u1jGeTE4TxJeLnhiIEyFCIMX8RhLcz+yakpRGPSRoaYNFwEDuWbIymnHemI9YE 2aniv+aFZpSUqTYHUDB/IcuiQcG+geMaMbZ0GCtUZMIo14IIjUYuZcxFoWDj9NPK YEWmwl6UDZW26sXi7gEfiwIDAQABo4ICpDCCAqAwDgYDVR0PAQH/BAQDAgWgMB0G A1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1Ud DgQWBBQ8lFlQy9WcoofHPpbT7I1F78i1kzAfBgNVHSMEGDAWgBQULrMXt1hWy65Q CUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9y My5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3Jn LzB2BgNVHREEbzBtghRjb3ZpZC5zZXJ2ZXVyZW9zLm9yZ4IYZGVwaXN0YWdlLnNl cnZldXJlb3Mub3JnghdwYXNzYWdlci5zZXJ2ZXVyZW9zLm9yZ4IOc2VydmV1cmVv cy5vcmeCEnd3dy5zZXJ2ZXVyZW9zLm9yZzBMBgNVHSAERTBDMAgGBmeBDAECATA3 BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNy eXB0Lm9yZzCCAQIGCisGAQQB1nkCBAIEgfMEgfAA7gB1AEalVet1+pEgMLWiiWn0 830RLEF0vv1JuIWr8vxw/m1HAAABfY72BeYAAAQDAEYwRAIgXz8l45ux9YcVoLb6 bq0P1IyDtKwa3Qh7BT0BeF51okgCIG36mXcM3l7VLQOynxrkvdXkfLf5aqPGsfcY GKQS6uvUAHUAb1N2rDHwMRnYmQCkURX/dxUcEdkCwQApBo2yCJo32RMAAAF9jvYG AAAABAMARjBEAiBoYlOqa9/ZyY0saJhQqoWDtjMLQH/jowzzEsgLE0t72gIgdtkq yd1rVwSuN3l6CO6Maxkfb1L7Zuy23GEfqEGo8vswDQYJKoZIhvcNAQELBQADggEB ADaBRZXrutsgQSrAKOULSAERj4XuYwA45YWCoz4R53tllZ8GF81BY0y900RRsyA8 9fCLhEKtSi9VibnfefMsanAIauNrUy0n8xqhjH4ESP1m1vtrV06uoRNk/5bqQhGV FhkUBtdcNPgvlBeYMYYpL4ZCazGm271VcOu24GHBQGO2od8gQyWVkT2P0MTsHKkH 8SNFsR6DAYJOC1Dj4zGaSMR5BnZLHhp+NrF5vaJqJElDMOzGIOYXesCU4MxQk+bz mLJUZ2kEh6Y9dofsqj/8mqfhdaEcBBPQLB/i+fph4fjbmP8z4TcuJQ/Vyphp6P73 fR/V04sllRNXATJRCFm3sTI= -----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIFfjCCBGagAwIBAgISBKhTUx1clx9A7+uoNxj90WvlMA0GCSqGSIb3DQEBCwUA MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD EwJSMzAeFw0yMjAyMDQwODIxMzVaFw0yMjA1MDUwODIxMzRaMBkxFzAVBgNVBAMT DnNlcnZldXJlb3Mub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA 4pOKak2gVgbsi9XPiBolz0wav6aM8PSmM9KE+PzpQflccKWRUP1Jk2bP5KxBdLS7 qemk5nPVygbt4pfiBTnZE55ertw6u65ys8mBV9m1F/DRVS/f1ideq1yiYKkr45k8 rZDNgn0stXjiKsq085lEZWPd67HhiyHl4x37B74K/T/SybYas/JMDEMoFdPKHyQ9 MCvNpRPZMhlkKg4Ft8CFmqEFmw8pZn1exR3XxXdUDtQ2J0HQamP1vVr1SdQS84HT s6CifH2LBOkr2IMm7lyWIFBVmHx0fYeGPS0pahJV8qdgMwy58t2oaR+WbuoDcFzH gun9y6ODad2SPyBgHBaovQIDAQABo4ICpTCCAqEwDgYDVR0PAQH/BAQDAgWgMB0G A1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1Ud DgQWBBTu30iMvsdm3k3POZ+6IvlrGZhhVDAfBgNVHSMEGDAWgBQULrMXt1hWy65Q CUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9y My5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3Jn LzB2BgNVHREEbzBtghRjb3ZpZC5zZXJ2ZXVyZW9zLm9yZ4IYZGVwaXN0YWdlLnNl cnZldXJlb3Mub3JnghdwYXNzYWdlci5zZXJ2ZXVyZW9zLm9yZ4IOc2VydmV1cmVv cy5vcmeCEnd3dy5zZXJ2ZXVyZW9zLm9yZzBMBgNVHSAERTBDMAgGBmeBDAECATA3 BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNy eXB0Lm9yZzCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1AG9Tdqwx8DEZ2JkApFEV /3cVHBHZAsEAKQaNsgiaN9kTAAABfsQJ/dEAAAQDAEYwRAIgVigeRvQpOqyIPvc6 mouB+LoefBqSHkmme+DM3zEag1cCIHZ2WNC3lGJV38SkGBdblgsaY2/MTxRcz8eh 27eBtRG4AHYARqVV63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAF+xAn9 ywAABAMARzBFAiEAqy1ne3/2uPml5HvUsidNlcnZAwOeX7g+xTUaAvXg/NUCIA5u gJxZJVTeiPn4Myx/oph+zwd0R8U7R21jDJkmp9cmMA0GCSqGSIb3DQEBCwUAA4IB AQCt2c8UwugBn844FqLES2Y8BMGvvm7EuAGsIpS3ZM5FsK++h1nPcQ2/UtVN77fT KYqyd4B4fp5goIP4HbQndK7KgxqJm2SQh/8vkQfURSaOyduWB5lnqeAIfId+ay/c W4Cpf7W7Md1dmFx3WzP44JPMJqwgd9dWMroinDJhGam73Aw21hb4FTTXaqIseAuW Cc7aS2PoaoHhZ7h8QckArwO2wvM7gFdtwe5aX1fyavkBYDKJ/rSSsVi2n9JKFi5y bQUWSv1tf4ePWGHnUpHLKu/SlMxP8xQxjsfDBBEituNrQjeoEyJ7xT3e1r3RaoUg cKGcisT/bCwpUtAJ8PtJs5it -----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "finding"      : "88 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2021-12-06 07:57"
+              "finding"      : "2022-02-04 08:21"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2022-03-06 07:57"
+              "finding"      : "2022-05-05 08:21"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -542,14 +542,14 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1643503911"
+              "finding"      : "1644109176"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -771,7 +771,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=62D674501E378153AD48FD0EAF1D635E84054CFD4982F294E66E4B2CCE489C9F"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=8124E9CB24A48887318015FECB5637D6B752D411FF52609BD049E70628E7688A"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1161,6 +1161,6 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "190"
+              "finding"      : "137"
           }
 ]
