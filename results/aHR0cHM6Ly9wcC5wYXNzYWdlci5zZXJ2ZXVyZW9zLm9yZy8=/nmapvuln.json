@@ -1,1 +1,1 @@
-{"host":"pp.passager.serveureos.org","protocol":"tcp","closed_ports":"998","open_ports":[{"service":{"name":"http","product":"nginx","id":"80","vulnerabilities":[]}},{"service":{"name":"http","product":"nginx","id":"443","vulnerabilities":[]}}],"grade":"A"}
+{"host":"pp.passager.serveureos.org","protocol":"tcp","closed_ports":"998","open_ports":[{"service":{"name":"http","product":"nginx","id":"80","vulnerabilities":[]}},{"service":{"name":"https","product":"nginx","id":"443","vulnerabilities":[]}}],"grade":"A"}
