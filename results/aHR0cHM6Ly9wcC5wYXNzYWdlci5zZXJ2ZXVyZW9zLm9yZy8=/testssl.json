@@ -269,7 +269,7 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0442653195D1F8AAA4982F9BEAE9AEE16226"
+              "finding"      : "0308130A0EAA43F721217C6885C5F8F3E59A"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4953A9AA57B99A2E444579ABEBFFFDE8537AFAE4"
+              "finding"      : "1AB2EB10DE0DDF0FFCA61813727B794D57FD65AE"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5FF5272B1FE70158981DD95BCAE189CD49F0988C3168AF2C0D54F8FBDFF14246"
+              "finding"      : "276199FAD8F3C29D8D7EFC468AA1E9C4800118BC0F5EE64C2DEDE3CC9FE061B6"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE----- MIIFpTCCBI2gAwIBAgISBEJlMZXR+KqkmC+b6umu4WImMA0GCSqGSIb3DQEBCwUA MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD EwJSMzAeFw0yMTEyMTgxMzI5MDRaFw0yMjAzMTgxMzI5MDNaMCIxIDAeBgNVBAMT F3BwLmNvdmlkLnNlcnZldXJlb3Mub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A MIIBCgKCAQEA1JBv6xhqN9As65MKV48Hx5nfw6aRV5/dT3vGVoT5TuCQY9hjWf4h 0h1IEfvOjwGx7V95thsi9NCpgyrI4gc52BxRkY2R/a6cLQYTs+Wbv0CCVGIfQ1OH Bv6SSkOitCypftHiAfWtiDKDdJlmcTUaYDk/kiJMIEueF7qqWSgpui4KMfShN5HB h9QLX5Jiy6rxRfFneAIRXPSHbAe3/02Owv6kshhGIOzXp/yr/KaDVZ6bgMwUcbWm Jwjw/XrJEP/BvDgxCWtsfV6acrzYd/6j1SW9ZyYYJxTnftAxc0rlmU6o+4HsqP3J ayPAhLE+ZyVkXCme7bwmWRWIJVjPfNsYkQIDAQABo4ICwzCCAr8wDgYDVR0PAQH/ BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8E AjAAMB0GA1UdDgQWBBQ+OfrzgP+UajAzzhPsAA8C5Uz4PTAfBgNVHSMEGDAWgBQU LrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGG FWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmku bGVuY3Iub3JnLzCBkwYDVR0RBIGLMIGIghdwcC5jb3ZpZC5zZXJ2ZXVyZW9zLm9y Z4IbcHAuZGVwaXN0YWdlLnNlcnZldXJlb3Mub3JnghpwcC5wYXNzYWdlci5zZXJ2 ZXVyZW9zLm9yZ4IVcHAucGNyLnNlcnZldXJlb3Mub3Jngh1wcC5wcmVsZXZlbWVu dC5zZXJ2ZXVyZW9zLm9yZzBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLf EwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCC AQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1AG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEA KQaNsgiaN9kTAAABfc3yPiIAAAQDAEYwRAIgT2nwFUpOaTChmrbDL1s5WnAq1a14 Cl0qHzzkMQamUbECIFcsQM01JAHSFcrR5xMkZ+SyimjdnqU986y8SnO4TQUGAHYA RqVV63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAF9zfI+HgAABAMARzBF AiEAp3seuL5RNOICdJWvXEDLxECz35yCfR9o98NayPW2Z4oCIAWnN/vC7cf5/bVz YqXV5/yFmzjQIKzQ0E89cQbz0tqRMA0GCSqGSIb3DQEBCwUAA4IBAQAaH5NJxr/g 72wwOlgDIuTFavaX8r3mSKhphPeWeW3ZcanzEmxpfucg8F4TyNlfI61pwlZjr2i9 j5pN2bqp6GQBgLH+JNc9JMnURP+3D0MpJDPnj9ZGWJepto63Fa4xEzRw8//aZXOl K7qISTpR6CPcurmrkA/0h+NmLxJZ3TdhVlWWNtR87Xf9hblQ+m4mS9cMYD+Uh5J5 z4xtv8gzxvQGMUzQw4yj3JH2LTeazpJdheBk8rKLXUd+f+Cf+Obr6T0Rrjij/h3M MYGCAwD9kRM9l5EBTQyu1NWAYdQkiExed6SbD2rFZ2WlKHak4x29YZzXy3ka95LG whj1z9KE0Pcu -----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIFpjCCBI6gAwIBAgISAwgTCg6qQ/chIXxohcX48+WaMA0GCSqGSIb3DQEBCwUA MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD EwJSMzAeFw0yMjAyMTYxOTQyMTNaFw0yMjA1MTcxOTQyMTJaMCIxIDAeBgNVBAMT F3BwLmNvdmlkLnNlcnZldXJlb3Mub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A MIIBCgKCAQEA1tnPeBZs9piy4GwMIVBaVK+PBe8wqACxXL03MSERp/+38RYkfRC0 caKeTh5drU3AuSSCoUHX/MeCUtsgwa6wLLhs5KzjSmY42NzxVz4U6M0qfJUi68bE ggbD6BbC1QgMc4urY6/4zVoEMztNkyVKqfK+VHR3QLxMfWgT40YbS1SF1goeH61L tR4CJA9LMTx35qMs/fSUjDXo9XLwckKw0lSKoeO4axfrgSwbTWoXljcOUlaik8YX Up2XiZsmtWWxjqdFvOHFGKBLxKVEhlmOnfW7REyoFZ4VATcJ6MhImKItDXGTApZD Ey32XoDB63GA4QLT3JMsd++ZlDjn6Qd8pwIDAQABo4ICxDCCAsAwDgYDVR0PAQH/ BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8E AjAAMB0GA1UdDgQWBBSFKfBEsGc80iFIuzA7NzHmTVwFvjAfBgNVHSMEGDAWgBQU LrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGG FWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmku bGVuY3Iub3JnLzCBkwYDVR0RBIGLMIGIghdwcC5jb3ZpZC5zZXJ2ZXVyZW9zLm9y Z4IbcHAuZGVwaXN0YWdlLnNlcnZldXJlb3Mub3JnghpwcC5wYXNzYWdlci5zZXJ2 ZXVyZW9zLm9yZ4IVcHAucGNyLnNlcnZldXJlb3Mub3Jngh1wcC5wcmVsZXZlbWVu dC5zZXJ2ZXVyZW9zLm9yZzBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLf EwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCC AQQGCisGAQQB1nkCBAIEgfUEgfIA8AB3AEHIyrHfIkZKEMahOglCh15OMYsbA+vr S8do8JBilgb2AAABfwRFbxkAAAQDAEgwRgIhAIl/lZNFY3I9NBqcGt9n23lgpGPr Q3kE3gUwLP6UPWfgAiEA9hyyQY+fv9z3afzR1MN/3Xqj0irT3kb6vGBvsL3Ui8wA dQApeb7wnjk5IfBWc59jpXflvld9nGAK+PlNXSZcJV3HhAAAAX8ERW8MAAAEAwBG MEQCIHEh4+rVT4A6rKJD1Cv4NhKx0LNCJTAtp/6mck7gdZUcAiA10htXN0D9WuNR 14IOU+VFBplnxasvfJ96C6wsFZPecTANBgkqhkiG9w0BAQsFAAOCAQEAhygfDmBV iHzZT5BvCF0Jz79tKSZ+9SwaC2hjII4Wlwae//eO8w1WNAlm6n9ithaasDwRTmld eVax4SDu6nlUoez1vbrKFE6L6DLdQ0KgpXwbZvCfqTkReva7RCF5T20mzV5el7rj RuZ1RtG4vEi31pZUDIir2YnTYRj+rogtTPbLjpivCr3VIU3dTOHZVbq7QjOAwhOi 6er10spPWRr7tyxx3T//D2hYAx+ST9R3CGQ/VGfA0FHtADnaO17wTDwbrMWfukyT FcwWj4GOLLPdL88490iJhzkEcfx2OROLF+C2p7cUWyaO1Mvz4Qgl0eX3hu826u9l wzPfydKgoGeksw== -----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "33 >= 30 days"
+              "finding"      : "86 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2021-12-18 13:29"
+              "finding"      : "2022-02-16 19:42"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2022-03-18 13:29"
+              "finding"      : "2022-05-17 19:42"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -549,14 +549,14 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1644713830"
+              "finding"      : "1645318865"
           }
 ,         {
               "id"           : "HSTS_time",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "max-age too short. 0 days (=3600 seconds) < 15552000 seconds"
+              "finding"      : "max-age too short. 30 days (=2592000 seconds) < 15552000 seconds"
           }
 ,         {
               "id"           : "HSTS_subdomains",
@@ -771,7 +771,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=5FF5272B1FE70158981DD95BCAE189CD49F0988C3168AF2C0D54F8FBDFF14246"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=276199FAD8F3C29D8D7EFC468AA1E9C4800118BC0F5EE64C2DEDE3CC9FE061B6"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1161,6 +1161,6 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "126"
+              "finding"      : "184"
           }
 ]
