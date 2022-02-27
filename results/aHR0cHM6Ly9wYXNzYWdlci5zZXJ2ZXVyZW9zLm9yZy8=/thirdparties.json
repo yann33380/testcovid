@@ -40,7 +40,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "qsdft45qe8ed9rkl22tj99cunn",
+      "value": "v0u6nud7bgbfn6v545996tv0ub",
       "domain": ".serveureos.org",
       "path": "/",
       "expires": -1,
@@ -56,11 +56,11 @@
   ],
   "headers": {
     "server": "nginx",
-    "date": "Sun, 20 Feb 2022 00:59:45 GMT",
+    "date": "Sun, 27 Feb 2022 00:59:22 GMT",
     "content-type": "text/html;charset=UTF-8",
     "content-length": "1615",
     "connection": "keep-alive",
-    "set-cookie": "PHPSESSID=qsdft45qe8ed9rkl22tj99cunn; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+    "set-cookie": "PHPSESSID=v0u6nud7bgbfn6v545996tv0ub; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "cache-control": "no-store, no-cache, must-revalidate",
     "pragma": "no-cache",
@@ -129,7 +129,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "74.125.132.95",
+      "ip": "172.217.12.234",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -188,7 +188,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.10",
+      "ip": "69.16.175.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -242,7 +242,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "74.125.70.94",
+      "ip": "142.250.188.195",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -274,9 +274,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -291,23 +291,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
-            "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
