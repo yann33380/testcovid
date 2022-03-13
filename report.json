@@ -5,7 +5,7 @@
     "http": {
       "url": "https://passager.serveureos.org/",
       "algorithm_version": 2,
-      "end_time": "Sun, 06 Mar 2022 00:58:02 GMT",
+      "end_time": "Sun, 13 Mar 2022 00:57:33 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -15,19 +15,19 @@
         "Content-Encoding": "gzip",
         "Content-Length": "1615",
         "Content-Type": "text/html;charset=UTF-8",
-        "Date": "Sun, 06 Mar 2022 00:58:00 GMT",
+        "Date": "Sun, 13 Mar 2022 00:57:32 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Pragma": "no-cache",
         "Server": "nginx",
-        "Set-Cookie": "PHPSESSID=lnaes1v95hb0gbccttnbdnsgfm; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "Set-Cookie": "PHPSESSID=t783v9lh35g5o4pclqjd9ntvhm; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "Strict-Transport-Security": "max-age=2592000; includeSubDomains",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-FRAME-OPTIONS": "SAMEORIGIN"
       },
-      "scan_id": 24939904,
+      "scan_id": 25108540,
       "score": 55,
-      "start_time": "Sun, 06 Mar 2022 00:57:58 GMT",
+      "start_time": "Sun, 13 Mar 2022 00:57:29 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 3,
@@ -587,7 +587,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "60 >= 30 days"
+        "finding": "53 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -783,14 +783,14 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "1646528390"
+        "finding": "1647133157"
       },
       {
         "id": "HSTS_time",
@@ -1402,7 +1402,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "181"
+        "finding": "136"
       }
     ],
     "thirdparties": {
@@ -1447,7 +1447,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "oqb9ggudj8hp7cgifm24gdta9f",
+          "value": "fcc701nhaflav8sj7jshm7dc2g",
           "domain": ".serveureos.org",
           "path": "/",
           "expires": -1,
@@ -1463,11 +1463,11 @@
       ],
       "headers": {
         "server": "nginx",
-        "date": "Sun, 06 Mar 2022 00:58:33 GMT",
+        "date": "Sun, 13 Mar 2022 00:58:06 GMT",
         "content-type": "text/html;charset=UTF-8",
         "content-length": "1615",
         "connection": "keep-alive",
-        "set-cookie": "PHPSESSID=oqb9ggudj8hp7cgifm24gdta9f; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "set-cookie": "PHPSESSID=fcc701nhaflav8sj7jshm7dc2g; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "cache-control": "no-store, no-cache, must-revalidate",
         "pragma": "no-cache",
@@ -1536,7 +1536,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.128.95",
+          "ip": "142.251.33.202",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1590,12 +1590,61 @@
         },
         {
           "hostname": "getbootstrap.com",
-          "ip": "104.22.58.100",
-          "geoip": null
+          "ip": "172.67.30.148",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "69.16.175.10",
+          "ip": "69.16.175.42",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1649,7 +1698,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.152.94",
+          "ip": "142.250.65.67",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1852,7 +1901,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Sun, 6 Mar 2022 00:57:40",
+      "@generated": "Sun, 13 Mar 2022 00:57:11",
       "site": [
         {
           "@name": "https://passager.serveureos.org",
@@ -1860,6 +1909,13 @@
           "@port": "443",
           "@ssl": "true",
           "alerts": [
+            {
+              "name": "Absence of Anti-CSRF Tokens",
+              "riskcode": "2",
+              "confidence": "1",
+              "riskdesc": "Medium (Low)",
+              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
+            },
             {
               "name": "Content Security Policy (CSP) Header Not Set",
               "riskcode": "2",
@@ -1896,13 +1952,6 @@
               "desc": "<p>The identified library jquery, version 3.2.1 is vulnerable.</p>"
             },
             {
-              "name": "Absence of Anti-CSRF Tokens",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
-            },
-            {
               "name": "Cross-Domain JavaScript Source File Inclusion",
               "riskcode": "1",
               "confidence": "2",
@@ -1915,13 +1964,6 @@
               "confidence": "1",
               "riskdesc": "Low (Low)",
               "desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>"
-            },
-            {
-              "name": "Incomplete or No Cache-control Header Set",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content.</p>"
             },
             {
               "name": "Permissions Policy Header Not Set",
@@ -1980,6 +2022,13 @@
               "desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>"
             },
             {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
               "name": "Storable and Cacheable Content",
               "riskcode": "0",
               "confidence": "2",
@@ -2001,13 +2050,13 @@
     "lhr": {
       "requestedUrl": "https://passager.serveureos.org/",
       "finalUrl": "https://passager.serveureos.org/",
-      "fetchTime": "2022-03-06T00:57:49.091Z",
+      "fetchTime": "2022-03-13T00:57:20.485Z",
       "runWarnings": [],
       "categories": {
         "performance": {
           "title": "Performance",
           "id": "performance",
-          "score": 0.916618537902832
+          "score": 0.9166122436523437
         },
         "accessibility": {
           "title": "Accessibility",
@@ -2043,49 +2092,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 4317,
+          "numericValue": 4221,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 2322,
-                "firstMeaningfulPaint": 2952,
-                "largestContentfulPaint": 4256,
-                "firstCPUIdle": 2952,
-                "interactive": 4317,
-                "speedIndex": 2427,
+                "firstContentfulPaint": 2262,
+                "firstMeaningfulPaint": 3121,
+                "largestContentfulPaint": 4094,
+                "firstCPUIdle": 3121,
+                "interactive": 4221,
+                "speedIndex": 2262,
                 "estimatedInputLatency": 13,
-                "totalBlockingTime": 1,
-                "maxPotentialFID": 51,
+                "totalBlockingTime": 9,
+                "maxPotentialFID": 65,
                 "cumulativeLayoutShift": 0.03543757332695855,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 333533040,
+                "observedTimeOriginTs": 283193884,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 333533040,
-                "observedFirstPaint": 782,
-                "observedFirstPaintTs": 334315451,
-                "observedFirstContentfulPaint": 782,
-                "observedFirstContentfulPaintTs": 334315451,
-                "observedFirstMeaningfulPaint": 900,
-                "observedFirstMeaningfulPaintTs": 334433344,
-                "observedLargestContentfulPaint": 1024,
-                "observedLargestContentfulPaintTs": 334556764,
-                "observedTraceEnd": 2632,
-                "observedTraceEndTs": 336165168,
-                "observedLoad": 1574,
-                "observedLoadTs": 335107098,
-                "observedDomContentLoaded": 998,
-                "observedDomContentLoadedTs": 334531269,
+                "observedNavigationStartTs": 283193884,
+                "observedFirstPaint": 618,
+                "observedFirstPaintTs": 283812349,
+                "observedFirstContentfulPaint": 618,
+                "observedFirstContentfulPaintTs": 283812349,
+                "observedFirstMeaningfulPaint": 646,
+                "observedFirstMeaningfulPaintTs": 283839949,
+                "observedLargestContentfulPaint": 802,
+                "observedLargestContentfulPaintTs": 283995445,
+                "observedTraceEnd": 2257,
+                "observedTraceEndTs": 285450484,
+                "observedLoad": 1197,
+                "observedLoadTs": 284391338,
+                "observedDomContentLoaded": 773,
+                "observedDomContentLoadedTs": 283967289,
                 "observedCumulativeLayoutShift": 0.03543757332695855,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 786,
-                "observedFirstVisualChangeTs": 334319040,
-                "observedLastVisualChange": 1386,
-                "observedLastVisualChangeTs": 334919040,
-                "observedSpeedIndex": 830,
-                "observedSpeedIndexTs": 334362792
+                "observedFirstVisualChange": 628,
+                "observedFirstVisualChangeTs": 283821884,
+                "observedLastVisualChange": 1228,
+                "observedLastVisualChangeTs": 284421884,
+                "observedSpeedIndex": 653,
+                "observedSpeedIndexTs": 283846979
               },
               {
                 "lcpInvalidated": false
@@ -2107,18 +2156,18 @@
                 "numScripts": 4,
                 "numStylesheets": 6,
                 "numFonts": 2,
-                "numTasks": 297,
+                "numTasks": 276,
                 "numTasksOver10ms": 3,
                 "numTasksOver25ms": 0,
                 "numTasksOver50ms": 0,
                 "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
-                "rtt": 13.295000000000002,
-                "throughput": 21874658.37754645,
-                "maxRtt": 116.331,
-                "maxServerLatency": 20.240999999999993,
-                "totalByteWeight": 1485735,
-                "totalTaskTime": 105.26600000000013,
+                "rtt": 1.713,
+                "throughput": 30840018.369897686,
+                "maxRtt": 85.495,
+                "maxServerLatency": 19.782,
+                "totalByteWeight": 1485768,
+                "totalTaskTime": 138.25999999999974,
                 "mainDocumentTransferSize": 2170
               }
             ]
@@ -2130,6 +2179,7 @@
     "stats": null,
     "trivy": null,
     "declaration-a11y": null,
+    "declaration-rgpd": null,
     "summary": {
       "404": "A+",
       "httpGrade": "C",
@@ -2143,7 +2193,7 @@
       "cookiesCount": 1,
       "trackersGrade": "C",
       "trackersCount": 5,
-      "lighthouse_performance": 0.916618537902832,
+      "lighthouse_performance": 0.9166122436523437,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.78,
       "lighthouse_accessibilityGrade": "B",
@@ -2161,7 +2211,7 @@
     "http": {
       "url": "https://pp.passager.serveureos.org/",
       "algorithm_version": 2,
-      "end_time": "Sun, 06 Mar 2022 00:57:52 GMT",
+      "end_time": "Sun, 13 Mar 2022 00:57:31 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2171,19 +2221,19 @@
         "Content-Encoding": "gzip",
         "Content-Length": "1615",
         "Content-Type": "text/html;charset=UTF-8",
-        "Date": "Sun, 06 Mar 2022 00:57:51 GMT",
+        "Date": "Sun, 13 Mar 2022 00:57:29 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Pragma": "no-cache",
         "Server": "nginx",
-        "Set-Cookie": "PHPSESSID=dpeupkeurru13dthgpin3ruq5d; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "Set-Cookie": "PHPSESSID=9oht76fngca530n4d67p8mc240; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "Strict-Transport-Security": "max-age=2592000; includeSubDomains",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-FRAME-OPTIONS": "SAMEORIGIN"
       },
-      "scan_id": 24939903,
+      "scan_id": 25108538,
       "score": 55,
-      "start_time": "Sun, 06 Mar 2022 00:57:48 GMT",
+      "start_time": "Sun, 13 Mar 2022 00:57:27 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 3,
@@ -2743,7 +2793,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "72 >= 30 days"
+        "finding": "65 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2946,7 +2996,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "1646528374"
+        "finding": "1647133153"
       },
       {
         "id": "HSTS_time",
@@ -3558,7 +3608,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "116"
+        "finding": "128"
       }
     ],
     "thirdparties": {
@@ -3603,7 +3653,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "9vt6u7cffv2os4qk4hn6lgtiqb",
+          "value": "sihgvsbsicbrrtfsl2eguuls6d",
           "domain": ".serveureos.org",
           "path": "/",
           "expires": -1,
@@ -3619,11 +3669,11 @@
       ],
       "headers": {
         "server": "nginx",
-        "date": "Sun, 06 Mar 2022 00:58:23 GMT",
+        "date": "Sun, 13 Mar 2022 00:58:03 GMT",
         "content-type": "text/html;charset=UTF-8",
         "content-length": "1615",
         "connection": "keep-alive",
-        "set-cookie": "PHPSESSID=9vt6u7cffv2os4qk4hn6lgtiqb; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "set-cookie": "PHPSESSID=sihgvsbsicbrrtfsl2eguuls6d; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "cache-control": "no-store, no-cache, must-revalidate",
         "pragma": "no-cache",
@@ -3692,7 +3742,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.217.13.74",
+          "ip": "142.250.65.74",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -3746,8 +3796,57 @@
         },
         {
           "hostname": "getbootstrap.com",
-          "ip": "104.22.59.100",
-          "geoip": null
+          "ip": "172.67.30.148",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
         },
         {
           "hostname": "code.jquery.com",
@@ -3805,7 +3904,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.33.195",
+          "ip": "172.217.0.35",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4008,7 +4107,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Sun, 6 Mar 2022 00:57:31",
+      "@generated": "Sun, 13 Mar 2022 00:57:09",
       "site": [
         {
           "@name": "https://pp.passager.serveureos.org",
@@ -4016,6 +4115,13 @@
           "@port": "443",
           "@ssl": "true",
           "alerts": [
+            {
+              "name": "Absence of Anti-CSRF Tokens",
+              "riskcode": "2",
+              "confidence": "1",
+              "riskdesc": "Medium (Low)",
+              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
+            },
             {
               "name": "Content Security Policy (CSP) Header Not Set",
               "riskcode": "2",
@@ -4052,13 +4158,6 @@
               "desc": "<p>The identified library jquery, version 3.2.1 is vulnerable.</p>"
             },
             {
-              "name": "Absence of Anti-CSRF Tokens",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
-            },
-            {
               "name": "Cross-Domain JavaScript Source File Inclusion",
               "riskcode": "1",
               "confidence": "2",
@@ -4071,13 +4170,6 @@
               "confidence": "1",
               "riskdesc": "Low (Low)",
               "desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>"
-            },
-            {
-              "name": "Incomplete or No Cache-control Header Set",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content.</p>"
             },
             {
               "name": "Permissions Policy Header Not Set",
@@ -4136,6 +4228,13 @@
               "desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>"
             },
             {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
               "name": "Storable and Cacheable Content",
               "riskcode": "0",
               "confidence": "2",
@@ -4157,13 +4256,13 @@
     "lhr": {
       "requestedUrl": "https://pp.passager.serveureos.org/",
       "finalUrl": "https://pp.passager.serveureos.org/",
-      "fetchTime": "2022-03-06T00:57:39.299Z",
+      "fetchTime": "2022-03-13T00:57:17.355Z",
       "runWarnings": [],
       "categories": {
         "performance": {
           "title": "Performance",
           "id": "performance",
-          "score": 0.9166118621826171
+          "score": 0.9166107177734375
         },
         "accessibility": {
           "title": "Accessibility",
@@ -4199,49 +4298,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 3117,
+          "numericValue": 3121,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 2250,
-                "firstMeaningfulPaint": 3117,
-                "largestContentfulPaint": 4073,
-                "firstCPUIdle": 3117,
-                "interactive": 3117,
-                "speedIndex": 2250,
+                "firstContentfulPaint": 2261,
+                "firstMeaningfulPaint": 3121,
+                "largestContentfulPaint": 4083,
+                "firstCPUIdle": 3121,
+                "interactive": 3121,
+                "speedIndex": 2261,
                 "estimatedInputLatency": 13,
                 "totalBlockingTime": 0,
-                "maxPotentialFID": 45,
+                "maxPotentialFID": 44,
                 "cumulativeLayoutShift": 0.03543757332695855,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 222388150,
+                "observedTimeOriginTs": 312583119,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 222388150,
-                "observedFirstPaint": 623,
-                "observedFirstPaintTs": 223011572,
-                "observedFirstContentfulPaint": 623,
-                "observedFirstContentfulPaintTs": 223011572,
-                "observedFirstMeaningfulPaint": 672,
-                "observedFirstMeaningfulPaintTs": 223059811,
-                "observedLargestContentfulPaint": 806,
-                "observedLargestContentfulPaintTs": 223194420,
-                "observedTraceEnd": 2406,
-                "observedTraceEndTs": 224794025,
-                "observedLoad": 1329,
-                "observedLoadTs": 223716950,
-                "observedDomContentLoaded": 771,
-                "observedDomContentLoadedTs": 223158791,
+                "observedNavigationStartTs": 312583119,
+                "observedFirstPaint": 628,
+                "observedFirstPaintTs": 313210889,
+                "observedFirstContentfulPaint": 628,
+                "observedFirstContentfulPaintTs": 313210889,
+                "observedFirstMeaningfulPaint": 670,
+                "observedFirstMeaningfulPaintTs": 313253108,
+                "observedLargestContentfulPaint": 808,
+                "observedLargestContentfulPaintTs": 313390652,
+                "observedTraceEnd": 2393,
+                "observedTraceEndTs": 314975647,
+                "observedLoad": 1326,
+                "observedLoadTs": 313908790,
+                "observedDomContentLoaded": 776,
+                "observedDomContentLoadedTs": 313358684,
                 "observedCumulativeLayoutShift": 0.03543757332695855,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 636,
-                "observedFirstVisualChangeTs": 223024150,
-                "observedLastVisualChange": 1236,
-                "observedLastVisualChangeTs": 223624150,
+                "observedFirstVisualChange": 637,
+                "observedFirstVisualChangeTs": 313220119,
+                "observedLastVisualChange": 1237,
+                "observedLastVisualChangeTs": 313820119,
                 "observedSpeedIndex": 666,
-                "observedSpeedIndexTs": 223053911
+                "observedSpeedIndexTs": 313248636
               },
               {
                 "lcpInvalidated": false
@@ -4263,18 +4362,18 @@
                 "numScripts": 4,
                 "numStylesheets": 6,
                 "numFonts": 2,
-                "numTasks": 296,
-                "numTasksOver10ms": 6,
+                "numTasks": 300,
+                "numTasksOver10ms": 5,
                 "numTasksOver25ms": 0,
                 "numTasksOver50ms": 0,
                 "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
-                "rtt": 5.58,
-                "throughput": 19886531.515026603,
-                "maxRtt": 87.504,
-                "maxServerLatency": 19.860999999999997,
-                "totalByteWeight": 1485770,
-                "totalTaskTime": 137.48600000000008,
+                "rtt": 5.497,
+                "throughput": 23470167.18696887,
+                "maxRtt": 91.292,
+                "maxServerLatency": 18.038,
+                "totalByteWeight": 1485776,
+                "totalTaskTime": 117.54500000000009,
                 "mainDocumentTransferSize": 2170
               }
             ]
@@ -4286,6 +4385,7 @@
     "stats": null,
     "trivy": null,
     "declaration-a11y": null,
+    "declaration-rgpd": null,
     "summary": {
       "404": "A+",
       "httpGrade": "C",
@@ -4299,7 +4399,7 @@
       "cookiesCount": 1,
       "trackersGrade": "C",
       "trackersCount": 5,
-      "lighthouse_performance": 0.9166118621826171,
+      "lighthouse_performance": 0.9166107177734375,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.78,
       "lighthouse_accessibilityGrade": "B",
