@@ -346,7 +346,7 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "41 >= 30 days"
+              "finding"      : "34 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1651972546"
+              "finding"      : "1652578159"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -771,7 +771,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=45EECFF24E4D79C4FC9AB8866DE1F2C75370FD65444D987DDF5C0C1E0D483610"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=45EECFF24E4D79C4FC9AB8866DE1F2C75370FD65444D987DDF5C0C1E0D483610"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1161,6 +1161,6 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "192"
+              "finding"      : "125"
           }
 ]
