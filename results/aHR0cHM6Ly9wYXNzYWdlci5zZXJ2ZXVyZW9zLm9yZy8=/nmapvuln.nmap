@@ -1,11 +1,11 @@
-# Nmap 7.91 scan initiated Sun May 29 01:24:59 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln passager.serveureos.org
+# Nmap 7.92 scan initiated Sun Jun  5 01:26:51 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln passager.serveureos.org
 Nmap scan report for passager.serveureos.org (135.125.34.180)
-Host is up (0.087s latency).
+Host is up (0.15s latency).
 rDNS record for 135.125.34.180: mx.serveureos.org
-Not shown: 998 filtered ports
+Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE  VERSION
 80/tcp  open  http     nginx
 443/tcp open  ssl/http nginx
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun May 29 01:25:21 2022 -- 1 IP address (1 host up) scanned in 21.82 seconds
+# Nmap done at Sun Jun  5 01:27:18 2022 -- 1 IP address (1 host up) scanned in 26.79 seconds
