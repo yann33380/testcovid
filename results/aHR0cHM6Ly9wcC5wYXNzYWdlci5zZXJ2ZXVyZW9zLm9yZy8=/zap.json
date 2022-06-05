@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 29 May 2022 01:21:56",
+	"@generated": "Sun, 5 Jun 2022 01:22:19",
 	"site":[ 
 		{
 			"@name": "https://pp.passager.serveureos.org",
@@ -411,84 +411,84 @@
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000007953"
+							"evidence": "0000007829"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000008423"
+							"evidence": "0000008299"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009802"
+							"evidence": "0000009678"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009868"
+							"evidence": "0000009744"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009974"
+							"evidence": "0000009850"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010085"
+							"evidence": "0000009961"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010199"
+							"evidence": "0000010075"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010648"
+							"evidence": "0000010524"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010783"
+							"evidence": "0000010659"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000011000"
+							"evidence": "0000010876"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000011504"
+							"evidence": "0000011380"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000016355"
+							"evidence": "0000016231"
 						}
 					],
 					"count": "14",
@@ -600,7 +600,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "46"
+					"sourceid": "44"
 				},
 				{
 					"pluginid": "10094",
@@ -737,7 +737,7 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>pp.passager.serveureos.org</p><p>PHPSESSID=07sb8qb9fsghmmauihbg6h5e85</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>pp.passager.serveureos.org</p><p>PHPSESSID=6gtph43jtsr3n1nbqlhdfpj470</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
@@ -915,7 +915,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "46"
+					"sourceid": "44"
 				},
 				{
 					"pluginid": "10031",
