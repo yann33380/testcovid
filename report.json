@@ -5,7 +5,7 @@
     "http": {
       "url": "https://passager.serveureos.org/",
       "algorithm_version": 2,
-      "end_time": "Sun, 26 Jun 2022 01:25:56 GMT",
+      "end_time": "Sun, 03 Jul 2022 01:30:21 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -15,19 +15,19 @@
         "Content-Encoding": "gzip",
         "Content-Length": "1615",
         "Content-Type": "text/html;charset=UTF-8",
-        "Date": "Sun, 26 Jun 2022 01:25:54 GMT",
+        "Date": "Sun, 03 Jul 2022 01:30:20 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Pragma": "no-cache",
         "Server": "nginx",
-        "Set-Cookie": "PHPSESSID=iffrnbu3pdlgrk32n0moj2gsqp; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "Set-Cookie": "PHPSESSID=8ppofuakvgnbhqsaafq8d8v2h8; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "Strict-Transport-Security": "max-age=2592000; includeSubDomains",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-FRAME-OPTIONS": "SAMEORIGIN"
       },
-      "scan_id": 27391574,
+      "scan_id": 27543097,
       "score": 55,
-      "start_time": "Sun, 26 Jun 2022 01:25:51 GMT",
+      "start_time": "Sun, 03 Jul 2022 01:30:16 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 3,
@@ -587,7 +587,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "69 >= 30 days"
+        "finding": "62 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -790,7 +790,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "1656206854"
+        "finding": "1656811940"
       },
       {
         "id": "HSTS_time",
@@ -1395,7 +1395,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "125"
+        "finding": "194"
       }
     ],
     "thirdparties": {
@@ -1456,7 +1456,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "4e8o48hl0s8frahj2dfs3r9k3k",
+          "value": "v629p7kuh122k60ge94crrsq33",
           "domain": ".serveureos.org",
           "path": "/",
           "expires": -1,
@@ -1476,11 +1476,11 @@
         "content-encoding": "gzip",
         "content-length": "1615",
         "content-type": "text/html;charset=UTF-8",
-        "date": "Sun, 26 Jun 2022 01:26:29 GMT",
+        "date": "Sun, 03 Jul 2022 01:30:55 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "pragma": "no-cache",
         "server": "nginx",
-        "set-cookie": "PHPSESSID=4e8o48hl0s8frahj2dfs3r9k3k; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "set-cookie": "PHPSESSID=v629p7kuh122k60ge94crrsq33; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "strict-transport-security": "max-age=2592000; includeSubDomains",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
@@ -1545,7 +1545,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.217.164.170",
+          "ip": "142.251.46.138",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1599,57 +1599,8 @@
         },
         {
           "hostname": "getbootstrap.com",
-          "ip": "172.67.30.148",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
+          "ip": "104.22.59.100",
+          "geoip": null
         },
         {
           "hostname": "code.jquery.com",
@@ -1707,7 +1658,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "172.253.63.94",
+          "ip": "142.250.138.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1910,7 +1861,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Sun, 26 Jun 2022 01:25:34",
+      "@generated": "Sun, 3 Jul 2022 01:29:57",
       "site": [
         {
           "@name": "https://passager.serveureos.org",
@@ -2057,6 +2008,57 @@
     },
     "nuclei": [
       {
+        "template": "exposures/configs/composer-config.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/composer-config.yaml",
+        "template-id": "composer-config",
+        "info": {
+          "name": "composer-config-file",
+          "author": [
+            "mahendra purbia (mah3sec_)"
+          ],
+          "tags": [
+            "config",
+            "exposure"
+          ],
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "composer.json",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/composer.json",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:15.666206907Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/composer.json'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "technologies/tech-detect.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
+        "template-id": "tech-detect",
+        "info": {
+          "name": "Wappalyzer Technology Detection",
+          "author": [
+            "hakluke"
+          ],
+          "tags": [
+            "tech"
+          ],
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "php",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:16.41188628Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
         "template": "technologies/tech-detect.yaml",
         "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
         "template-id": "tech-detect",
@@ -2076,7 +2078,7 @@
         "host": "https://passager.serveureos.org/",
         "matched-at": "https://passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:08.972549609Z",
+        "timestamp": "2022-07-03T01:36:16.41202969Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
@@ -2101,7 +2103,7 @@
         "host": "https://passager.serveureos.org/",
         "matched-at": "https://passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:08.975997811Z",
+        "timestamp": "2022-07-03T01:36:16.412078993Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
@@ -2126,720 +2128,8 @@
         "host": "https://passager.serveureos.org/",
         "matched-at": "https://passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:08.978900014Z",
+        "timestamp": "2022-07-03T01:36:16.413407179Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "technologies/tech-detect.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
-        "template-id": "tech-detect",
-        "info": {
-          "name": "Wappalyzer Technology Detection",
-          "author": [
-            "hakluke"
-          ],
-          "tags": [
-            "tech"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "php",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:08.978991414Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "dns/mx-fingerprint.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/mx-fingerprint.yaml",
-        "template-id": "mx-fingerprint",
-        "info": {
-          "name": "MX Record Detection",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "dns",
-            "mx"
-          ],
-          "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
-          "reference": [
-            "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
-            "https://mxtoolbox.com/"
-          ],
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "type": "dns",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "extracted-results": [
-          "100 mx3.mail.ovh.net.",
-          "5 mx2.mail.ovh.net.",
-          "1 mx1.mail.ovh.net."
-        ],
-        "timestamp": "2022-06-26T01:30:09.504537291Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "dns/txt-fingerprint.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/txt-fingerprint.yaml",
-        "template-id": "txt-fingerprint",
-        "info": {
-          "name": "DNS TXT Record Detected",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "dns",
-            "txt"
-          ],
-          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
-          "reference": [
-            "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
-          ],
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "type": "dns",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "extracted-results": [
-          "\"v=spf1 ip4:135.125.34.177 ip4:135.125.34.178  ip4:135.125.34.179  ip4:135.125.34.180 include:ovh.net include:ovh.com ~all\""
-        ],
-        "timestamp": "2022-06-26T01:30:11.593536893Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "content-security-policy",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.816192053Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "clear-site-data",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.819325655Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "cross-origin-embedder-policy",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.822272457Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "cross-origin-opener-policy",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.823958259Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-expose-headers",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.824119859Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-max-age",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.824256159Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-allow-headers",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.824389259Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "referrer-policy",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.824521959Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-allow-credentials",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.824652959Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "permission-policy",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.824932159Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "x-permitted-cross-domain-policies",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.825069759Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-allow-methods",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.82521116Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "cross-origin-resource-policy",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.82534446Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-allow-origin",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:11.82549936Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "ssl/tls-version.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/tls-version.yaml",
-        "template-id": "tls-version",
-        "info": {
-          "name": "TLS Version",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "ssl"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
-        "type": "ssl",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "extracted-results": [
-          "TLS13"
-        ],
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:13.745210092Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "dns/cname-fingerprint.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/cname-fingerprint.yaml",
-        "template-id": "cname-fingerprint",
-        "info": {
-          "name": "CNAME Fingerprint",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "dns",
-            "cname"
-          ],
-          "description": "A CNAME DNS record was discovered.",
-          "reference": [
-            "https://www.theregister.com/2021/02/24/dns_cname_tracking/",
-            "https://www.ionos.com/digitalguide/hosting/technical-matters/cname-record/"
-          ],
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "type": "dns",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "extracted-results": [
-          "serveureos.org."
-        ],
-        "timestamp": "2022-06-26T01:30:17.480479197Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "exposures/configs/composer-config.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/composer-config.yaml",
-        "template-id": "composer-config",
-        "info": {
-          "name": "composer-config-file",
-          "author": [
-            "mahendra purbia (mah3sec_)"
-          ],
-          "tags": [
-            "config",
-            "exposure"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "composer.json",
-        "type": "http",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/composer.json",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:27.218429192Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/composer.json'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "ssl/ssl-dns-names.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/ssl-dns-names.yaml",
-        "template-id": "ssl-dns-names",
-        "info": {
-          "name": "SSL DNS Names",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "ssl"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
-        "type": "ssl",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "extracted-results": [
-          "covid.serveureos.org",
-          "depistage.serveureos.org",
-          "passager.serveureos.org",
-          "serveureos.org",
-          "www.serveureos.org"
-        ],
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:40.230910397Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "dns/nameserver-fingerprint.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/nameserver-fingerprint.yaml",
-        "template-id": "nameserver-fingerprint",
-        "info": {
-          "name": "NS Record Detection",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "dns",
-            "ns"
-          ],
-          "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
-          "reference": null,
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "type": "dns",
-        "host": "https://passager.serveureos.org/",
-        "matched-at": "https://passager.serveureos.org/",
-        "extracted-results": [
-          "dns19.ovh.net.",
-          "ns19.ovh.net."
-        ],
-        "timestamp": "2022-06-26T01:30:44.628456336Z",
         "matcher-status": true,
         "matched-line": null
       },
@@ -2875,8 +2165,669 @@
         "host": "https://passager.serveureos.org/",
         "matched-at": "https://passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:30:49.460358815Z",
+        "timestamp": "2022-07-03T01:36:28.749620028Z",
         "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: passager.serveureos.org' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "cross-origin-resource-policy",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547030368Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-max-age",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547223181Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "permission-policy",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547273384Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "clear-site-data",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547318487Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-allow-origin",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.54736389Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547409493Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "cross-origin-opener-policy",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547451195Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-allow-credentials",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547491898Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-allow-methods",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547535201Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.547576304Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.549062099Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-expose-headers",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.551301644Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-allow-headers",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.55310036Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "content-security-policy",
+        "type": "http",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:36:33.553150363Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/cname-fingerprint.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/cname-fingerprint.yaml",
+        "template-id": "cname-fingerprint",
+        "info": {
+          "name": "CNAME Fingerprint",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "cname"
+          ],
+          "description": "A CNAME DNS record was discovered.",
+          "reference": [
+            "https://www.theregister.com/2021/02/24/dns_cname_tracking/",
+            "https://www.ionos.com/digitalguide/hosting/technical-matters/cname-record/"
+          ],
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "extracted-results": [
+          "serveureos.org."
+        ],
+        "timestamp": "2022-07-03T01:36:57.146919841Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/nameserver-fingerprint.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/nameserver-fingerprint.yaml",
+        "template-id": "nameserver-fingerprint",
+        "info": {
+          "name": "NS Record Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "ns"
+          ],
+          "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+          "reference": null,
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "extracted-results": [
+          "ns19.ovh.net.",
+          "dns19.ovh.net."
+        ],
+        "timestamp": "2022-07-03T01:37:10.059588451Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "ssl/tls-version.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/tls-version.yaml",
+        "template-id": "tls-version",
+        "info": {
+          "name": "TLS Version",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "ssl"
+          ],
+          "reference": null,
+          "severity": "info"
+        },
+        "type": "ssl",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "extracted-results": [
+          "TLS13"
+        ],
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:37:25.894742911Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "ssl/ssl-dns-names.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/ssl-dns-names.yaml",
+        "template-id": "ssl-dns-names",
+        "info": {
+          "name": "SSL DNS Names",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "ssl"
+          ],
+          "reference": null,
+          "severity": "info"
+        },
+        "type": "ssl",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "extracted-results": [
+          "depistage.serveureos.org",
+          "passager.serveureos.org",
+          "serveureos.org",
+          "www.serveureos.org",
+          "covid.serveureos.org"
+        ],
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:37:31.044875194Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/txt-fingerprint.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/txt-fingerprint.yaml",
+        "template-id": "txt-fingerprint",
+        "info": {
+          "name": "DNS TXT Record Detected",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "txt"
+          ],
+          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
+          "reference": [
+            "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
+          ],
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "extracted-results": [
+          "\"v=spf1 ip4:135.125.34.177 ip4:135.125.34.178  ip4:135.125.34.179  ip4:135.125.34.180 include:ovh.net include:ovh.com ~all\""
+        ],
+        "timestamp": "2022-07-03T01:37:35.132575619Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/mx-fingerprint.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/mx-fingerprint.yaml",
+        "template-id": "mx-fingerprint",
+        "info": {
+          "name": "MX Record Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "mx"
+          ],
+          "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
+          "reference": [
+            "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
+            "https://mxtoolbox.com/"
+          ],
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "https://passager.serveureos.org/",
+        "matched-at": "https://passager.serveureos.org/",
+        "extracted-results": [
+          "5 mx2.mail.ovh.net.",
+          "1 mx1.mail.ovh.net.",
+          "100 mx3.mail.ovh.net."
+        ],
+        "timestamp": "2022-07-03T01:37:36.917883786Z",
         "matcher-status": true,
         "matched-line": null
       }
@@ -2884,13 +2835,13 @@
     "lhr": {
       "requestedUrl": "https://passager.serveureos.org/",
       "finalUrl": "https://passager.serveureos.org/",
-      "fetchTime": "2022-06-26T01:25:43.046Z",
+      "fetchTime": "2022-07-03T01:30:05.999Z",
       "runWarnings": [],
       "categories": {
         "performance": {
           "title": "Performance",
           "id": "performance",
-          "score": 0.9165792465209961
+          "score": 0.9165849685668945
         },
         "accessibility": {
           "title": "Accessibility",
@@ -2926,49 +2877,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 3116,
+          "numericValue": 3327,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 2210,
-                "firstMeaningfulPaint": 3116,
-                "largestContentfulPaint": 3969,
-                "firstCPUIdle": 3116,
-                "interactive": 3116,
-                "speedIndex": 2210,
+                "firstContentfulPaint": 2525,
+                "firstMeaningfulPaint": 3327,
+                "largestContentfulPaint": 4589,
+                "firstCPUIdle": 3327,
+                "interactive": 3327,
+                "speedIndex": 3267,
                 "estimatedInputLatency": 13,
                 "totalBlockingTime": 0,
-                "maxPotentialFID": 16,
+                "maxPotentialFID": 29,
                 "cumulativeLayoutShift": 0.03543757332695855,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 380205306,
+                "observedTimeOriginTs": 174442810,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 380205306,
-                "observedFirstPaint": 600,
-                "observedFirstPaintTs": 380804934,
-                "observedFirstContentfulPaint": 600,
-                "observedFirstContentfulPaintTs": 380804934,
-                "observedFirstMeaningfulPaint": 640,
-                "observedFirstMeaningfulPaintTs": 380845550,
-                "observedLargestContentfulPaint": 781,
-                "observedLargestContentfulPaintTs": 380986113,
-                "observedTraceEnd": 2341,
-                "observedTraceEndTs": 382546566,
-                "observedLoad": 1286,
-                "observedLoadTs": 381490937,
-                "observedDomContentLoaded": 769,
-                "observedDomContentLoadedTs": 380974147,
+                "observedNavigationStartTs": 174442810,
+                "observedFirstPaint": 1246,
+                "observedFirstPaintTs": 175689214,
+                "observedFirstContentfulPaint": 1246,
+                "observedFirstContentfulPaintTs": 175689214,
+                "observedFirstMeaningfulPaint": 1303,
+                "observedFirstMeaningfulPaintTs": 175745845,
+                "observedLargestContentfulPaint": 1542,
+                "observedLargestContentfulPaintTs": 175985021,
+                "observedTraceEnd": 3452,
+                "observedTraceEndTs": 177894976,
+                "observedLoad": 2392,
+                "observedLoadTs": 176835194,
+                "observedDomContentLoaded": 1527,
+                "observedDomContentLoadedTs": 175969839,
                 "observedCumulativeLayoutShift": 0.03543757332695855,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 612,
-                "observedFirstVisualChangeTs": 380817306,
-                "observedLastVisualChange": 1212,
-                "observedLastVisualChangeTs": 381417306,
-                "observedSpeedIndex": 640,
-                "observedSpeedIndexTs": 380845099
+                "observedFirstVisualChange": 1250,
+                "observedFirstVisualChangeTs": 175692810,
+                "observedLastVisualChange": 1966,
+                "observedLastVisualChangeTs": 176408810,
+                "observedSpeedIndex": 1294,
+                "observedSpeedIndexTs": 175736470
               },
               {
                 "lcpInvalidated": false
@@ -2990,18 +2941,18 @@
                 "numScripts": 4,
                 "numStylesheets": 6,
                 "numFonts": 2,
-                "numTasks": 305,
-                "numTasksOver10ms": 1,
+                "numTasks": 320,
+                "numTasksOver10ms": 2,
                 "numTasksOver25ms": 0,
                 "numTasksOver50ms": 0,
                 "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
-                "rtt": 5.3580000000000005,
-                "throughput": 24626900.48787801,
-                "maxRtt": 89.118,
-                "maxServerLatency": 23.875,
-                "totalByteWeight": 1485941,
-                "totalTaskTime": 91.4520000000001,
+                "rtt": 7.252,
+                "throughput": 14952601.138620427,
+                "maxRtt": 146.42900000000003,
+                "maxServerLatency": 27.064,
+                "totalByteWeight": 1485911,
+                "totalTaskTime": 125.853,
                 "mainDocumentTransferSize": 2170
               }
             ]
@@ -3030,7 +2981,7 @@
       "cookiesCount": 1,
       "trackersGrade": "C",
       "trackersCount": 7,
-      "lighthouse_performance": 0.9165792465209961,
+      "lighthouse_performance": 0.9165849685668945,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.78,
       "lighthouse_accessibilityGrade": "B",
@@ -3045,7 +2996,216 @@
   {
     "404": [],
     "url": "https://pp.passager.serveureos.org/",
-    "http": null,
+    "http": {
+      "url": "https://pp.passager.serveureos.org/",
+      "algorithm_version": 2,
+      "end_time": "Sun, 03 Jul 2022 01:29:44 GMT",
+      "grade": "C",
+      "hidden": false,
+      "likelihood_indicator": "MEDIUM",
+      "response_headers": {
+        "Cache-Control": "no-store, no-cache, must-revalidate",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "1615",
+        "Content-Type": "text/html;charset=UTF-8",
+        "Date": "Sun, 03 Jul 2022 01:29:43 GMT",
+        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "nginx",
+        "Set-Cookie": "PHPSESSID=5ncrim1or71rgsvatlef5jm7sk; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "Strict-Transport-Security": "max-age=2592000; includeSubDomains",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-FRAME-OPTIONS": "SAMEORIGIN"
+      },
+      "scan_id": 27543069,
+      "score": 55,
+      "start_time": "Sun, 03 Jul 2022 01:29:40 GMT",
+      "state": "FINISHED",
+      "status_code": 200,
+      "tests_failed": 3,
+      "tests_passed": 9,
+      "tests_quantity": 12,
+      "details": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "name": "content-security-policy",
+          "output": {
+            "data": null,
+            "http": false,
+            "meta": false,
+            "policy": null
+          },
+          "pass": false,
+          "result": "csp-not-implemented",
+          "score_description": "Content Security Policy (CSP) header not implemented",
+          "score_modifier": -25
+        },
+        "contribute": {
+          "expectation": "contribute-json-only-required-on-mozilla-properties",
+          "name": "contribute",
+          "output": {
+            "data": null
+          },
+          "pass": true,
+          "result": "contribute-json-only-required-on-mozilla-properties",
+          "score_description": "Contribute.json isn't required on websites that don't belong to Mozilla",
+          "score_modifier": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "name": "cookies",
+          "output": {
+            "data": {
+              "PHPSESSID": {
+                "domain": ".serveureos.org",
+                "expires": null,
+                "httponly": true,
+                "max-age": null,
+                "path": "/",
+                "port": null,
+                "samesite": "Strict",
+                "secure": true
+              }
+            },
+            "sameSite": true
+          },
+          "pass": true,
+          "result": "cookies-secure-with-httponly-sessions-and-samesite",
+          "score_description": "All cookies use the Secure flag, session cookies use the HttpOnly flag, and cross-origin restrictions are in place via the SameSite flag",
+          "score_modifier": 5
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "name": "cross-origin-resource-sharing",
+          "output": {
+            "data": {
+              "acao": null,
+              "clientaccesspolicy": null,
+              "crossdomain": null
+            }
+          },
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
+          "score_modifier": 0
+        },
+        "public-key-pinning": {
+          "expectation": "hpkp-not-implemented",
+          "name": "public-key-pinning",
+          "output": {
+            "data": null,
+            "includeSubDomains": false,
+            "max-age": null,
+            "numPins": null,
+            "preloaded": false
+          },
+          "pass": true,
+          "result": "hpkp-not-implemented",
+          "score_description": "HTTP Public Key Pinning (HPKP) header not implemented",
+          "score_modifier": 0
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "name": "redirection",
+          "output": {
+            "destination": "https://pp.passager.serveureos.org/",
+            "redirects": true,
+            "route": [
+              "http://pp.passager.serveureos.org/",
+              "https://pp.passager.serveureos.org/"
+            ],
+            "status_code": 200
+          },
+          "pass": true,
+          "result": "redirection-to-https",
+          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
+          "score_modifier": 0
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "name": "referrer-policy",
+          "output": {
+            "data": null,
+            "http": false,
+            "meta": false
+          },
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "score_description": "Referrer-Policy header not implemented",
+          "score_modifier": 0
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "name": "strict-transport-security",
+          "output": {
+            "data": "max-age=2592000; includeSubDomains",
+            "includeSubDomains": true,
+            "max-age": 2592000,
+            "preload": false,
+            "preloaded": false
+          },
+          "pass": false,
+          "result": "hsts-implemented-max-age-less-than-six-months",
+          "score_description": "HTTP Strict Transport Security (HSTS) header set to less than six months (15768000)",
+          "score_modifier": -10
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "name": "subresource-integrity",
+          "output": {
+            "data": {
+              "https://code.jquery.com/jquery-3.2.1.slim.min.js": {
+                "crossorigin": "anonymous",
+                "integrity": "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+              },
+              "https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js": {
+                "crossorigin": "anonymous",
+                "integrity": "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+              }
+            }
+          },
+          "pass": true,
+          "result": "sri-implemented-and-external-scripts-loaded-securely",
+          "score_description": "Subresource Integrity (SRI) is implemented and all scripts are loaded securely",
+          "score_modifier": 5
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "name": "x-content-type-options",
+          "output": {
+            "data": "nosniff"
+          },
+          "pass": true,
+          "result": "x-content-type-options-nosniff",
+          "score_description": "X-Content-Type-Options header set to \"nosniff\"",
+          "score_modifier": 0
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "name": "x-frame-options",
+          "output": {
+            "data": "SAMEORIGIN"
+          },
+          "pass": true,
+          "result": "x-frame-options-sameorigin-or-deny",
+          "score_description": "X-Frame-Options (XFO) header set to SAMEORIGIN or DENY",
+          "score_modifier": 0
+        },
+        "x-xss-protection": {
+          "expectation": "x-xss-protection-1-mode-block",
+          "name": "x-xss-protection",
+          "output": {
+            "data": null
+          },
+          "pass": false,
+          "result": "x-xss-protection-not-implemented",
+          "score_description": "X-XSS-Protection header not implemented",
+          "score_modifier": -10
+        }
+      }
+    },
     "updownio": null,
     "nmap": {
       "host": "pp.passager.serveureos.org",
@@ -3421,7 +3581,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "52 >= 30 days"
+        "finding": "45 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3624,7 +3784,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "1656206906"
+        "finding": "1656811888"
       },
       {
         "id": "HSTS_time",
@@ -4229,7 +4389,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "195"
+        "finding": "134"
       }
     ],
     "thirdparties": {
@@ -4290,7 +4450,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "m1hvgbh3sus839lve5d5kf2juv",
+          "value": "ues0mu4rhkf9q5c45346794vmr",
           "domain": ".serveureos.org",
           "path": "/",
           "expires": -1,
@@ -4310,11 +4470,11 @@
         "content-encoding": "gzip",
         "content-length": "1615",
         "content-type": "text/html;charset=UTF-8",
-        "date": "Sun, 26 Jun 2022 01:27:00 GMT",
+        "date": "Sun, 03 Jul 2022 01:30:18 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "pragma": "no-cache",
         "server": "nginx",
-        "set-cookie": "PHPSESSID=m1hvgbh3sus839lve5d5kf2juv; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "set-cookie": "PHPSESSID=ues0mu4rhkf9q5c45346794vmr; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "strict-transport-security": "max-age=2592000; includeSubDomains",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
@@ -4379,7 +4539,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.217.5.106",
+          "ip": "172.217.0.42",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4433,61 +4593,12 @@
         },
         {
           "hostname": "getbootstrap.com",
-          "ip": "172.67.30.148",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
+          "ip": "104.22.59.100",
+          "geoip": null
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "69.16.175.10",
+          "ip": "69.16.175.42",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4541,7 +4652,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.46.195",
+          "ip": "142.250.188.35",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4744,7 +4855,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Sun, 26 Jun 2022 01:26:19",
+      "@generated": "Sun, 3 Jul 2022 01:29:23",
       "site": [
         {
           "@name": "https://pp.passager.serveureos.org",
@@ -4905,62 +5016,12 @@
           "reference": null,
           "severity": "info"
         },
-        "matcher-name": "nginx",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:21.144332304Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "technologies/tech-detect.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
-        "template-id": "tech-detect",
-        "info": {
-          "name": "Wappalyzer Technology Detection",
-          "author": [
-            "hakluke"
-          ],
-          "tags": [
-            "tech"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "php",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:21.144854806Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "technologies/tech-detect.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
-        "template-id": "tech-detect",
-        "info": {
-          "name": "Wappalyzer Technology Detection",
-          "author": [
-            "hakluke"
-          ],
-          "tags": [
-            "tech"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
         "matcher-name": "font-awesome",
         "type": "http",
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:21.144916206Z",
+        "timestamp": "2022-07-03T01:34:13.587496578Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
@@ -4985,300 +5046,57 @@
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:21.144958306Z",
+        "timestamp": "2022-07-03T01:34:13.588012285Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
       },
       {
-        "template": "ssl/tls-version.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/tls-version.yaml",
-        "template-id": "tls-version",
+        "template": "technologies/tech-detect.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
+        "template-id": "tech-detect",
         "info": {
-          "name": "TLS Version",
+          "name": "Wappalyzer Technology Detection",
           "author": [
-            "pdteam"
+            "hakluke"
           ],
           "tags": [
-            "ssl"
+            "tech"
           ],
           "reference": null,
           "severity": "info"
         },
-        "type": "ssl",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "extracted-results": [
-          "TLS13"
-        ],
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:26.255063836Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "ssl/ssl-dns-names.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/ssl-dns-names.yaml",
-        "template-id": "ssl-dns-names",
-        "info": {
-          "name": "SSL DNS Names",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "ssl"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
-        "type": "ssl",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "extracted-results": [
-          "pp.exterieur.serveureos.org",
-          "pp.passager.serveureos.org",
-          "pp.pcr.serveureos.org",
-          "pp.prelevement.serveureos.org",
-          "pp.covid.serveureos.org",
-          "pp.depistage.serveureos.org"
-        ],
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:26.885940947Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "dns/mx-fingerprint.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/mx-fingerprint.yaml",
-        "template-id": "mx-fingerprint",
-        "info": {
-          "name": "MX Record Detection",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "dns",
-            "mx"
-          ],
-          "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
-          "reference": [
-            "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
-            "https://mxtoolbox.com/"
-          ],
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "type": "dns",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "extracted-results": [
-          "1 mx1.mail.ovh.net.",
-          "5 mx2.mail.ovh.net.",
-          "100 mx3.mail.ovh.net."
-        ],
-        "timestamp": "2022-06-26T01:32:28.334227788Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "content-security-policy",
+        "matcher-name": "nginx",
         "type": "http",
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.842753816Z",
+        "timestamp": "2022-07-03T01:34:13.588056786Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
       },
       {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
+        "template": "technologies/tech-detect.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
+        "template-id": "tech-detect",
         "info": {
-          "name": "HTTP Missing Security Headers",
+          "name": "Wappalyzer Technology Detection",
           "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
+            "hakluke"
           ],
           "tags": [
-            "misconfig",
-            "generic"
+            "tech"
           ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
           "reference": null,
           "severity": "info"
         },
-        "matcher-name": "access-control-max-age",
+        "matcher-name": "php",
         "type": "http",
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.842895318Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "referrer-policy",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.842941718Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "clear-site-data",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.845785644Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "cross-origin-opener-policy",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.845843445Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-allow-origin",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.845888445Z",
+        "timestamp": "2022-07-03T01:34:13.588096486Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
@@ -5311,106 +5129,7 @@
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.845935446Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "x-permitted-cross-domain-policies",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.845981146Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "cross-origin-resource-policy",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.846022546Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "access-control-expose-headers",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.846064947Z",
+        "timestamp": "2022-07-03T01:34:15.449580448Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
@@ -5443,73 +5162,7 @@
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.846110047Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "permission-policy",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.853583116Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-        "template-id": "http-missing-security-headers",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass"
-          ],
-          "tags": [
-            "misconfig",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "cross-origin-embedder-policy",
-        "type": "http",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.853705517Z",
+        "timestamp": "2022-07-03T01:34:15.449717949Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
@@ -5542,140 +5195,428 @@
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:32:32.867436844Z",
+        "timestamp": "2022-07-03T01:34:15.44975735Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
       },
       {
-        "template": "dns/nameserver-fingerprint.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/nameserver-fingerprint.yaml",
-        "template-id": "nameserver-fingerprint",
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
         "info": {
-          "name": "NS Record Detection",
+          "name": "HTTP Missing Security Headers",
           "author": [
-            "pdteam"
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
           ],
           "tags": [
-            "dns",
-            "ns"
+            "misconfig",
+            "generic"
           ],
-          "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
           "reference": null,
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
+          "severity": "info"
         },
-        "type": "dns",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "extracted-results": [
-          "ns19.ovh.net.",
-          "dns19.ovh.net."
-        ],
-        "timestamp": "2022-06-26T01:32:58.837415266Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "dns/txt-fingerprint.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/txt-fingerprint.yaml",
-        "template-id": "txt-fingerprint",
-        "info": {
-          "name": "DNS TXT Record Detected",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "dns",
-            "txt"
-          ],
-          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
-          "reference": [
-            "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
-          ],
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "type": "dns",
-        "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/",
-        "extracted-results": [
-          "\"v=spf1 ip4:135.125.34.177 ip4:135.125.34.178  ip4:135.125.34.179  ip4:135.125.34.180 include:ovh.net include:ovh.com ~all\""
-        ],
-        "timestamp": "2022-06-26T01:33:08.270136996Z",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "technologies/waf-detect.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/waf-detect.yaml",
-        "template-id": "waf-detect",
-        "info": {
-          "name": "WAF Detection",
-          "author": [
-            "dwisiswant0",
-            "lu4nx"
-          ],
-          "tags": [
-            "waf",
-            "tech",
-            "misc"
-          ],
-          "description": "A web application firewall was detected.",
-          "reference": [
-            "https://github.com/ekultek/whatwaf"
-          ],
-          "severity": "info",
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "matcher-name": "nginxgeneric",
+        "matcher-name": "content-security-policy",
         "type": "http",
         "host": "https://pp.passager.serveureos.org/",
         "matched-at": "https://pp.passager.serveureos.org/",
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:33:28.231786642Z",
-        "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: pp.passager.serveureos.org' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "timestamp": "2022-07-03T01:34:15.449792651Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
       },
       {
-        "template": "exposures/configs/composer-config.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/composer-config.yaml",
-        "template-id": "composer-config",
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
         "info": {
-          "name": "composer-config-file",
+          "name": "HTTP Missing Security Headers",
           "author": [
-            "mahendra purbia (mah3sec_)"
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
           ],
           "tags": [
-            "config",
-            "exposure"
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "cross-origin-resource-policy",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.449827751Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-allow-origin",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.449860451Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.449892852Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "cross-origin-opener-policy",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.449925752Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-max-age",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.449958853Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "clear-site-data",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.449991453Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.452859793Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "access-control-expose-headers",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.452925194Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "permission-policy",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.452963694Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+        "template-id": "http-missing-security-headers",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass"
+          ],
+          "tags": [
+            "misconfig",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:15.453010595Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "ssl/tls-version.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/tls-version.yaml",
+        "template-id": "tls-version",
+        "info": {
+          "name": "TLS Version",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "ssl"
           ],
           "reference": null,
           "severity": "info"
         },
-        "matcher-name": "composer.json",
-        "type": "http",
+        "type": "ssl",
         "host": "https://pp.passager.serveureos.org/",
-        "matched-at": "https://pp.passager.serveureos.org/composer.json",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "extracted-results": [
+          "TLS13"
+        ],
         "ip": "135.125.34.180",
-        "timestamp": "2022-06-26T01:33:29.563027795Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/composer.json'",
+        "timestamp": "2022-07-03T01:34:44.750567637Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "ssl/ssl-dns-names.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/ssl-dns-names.yaml",
+        "template-id": "ssl-dns-names",
+        "info": {
+          "name": "SSL DNS Names",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "ssl"
+          ],
+          "reference": null,
+          "severity": "info"
+        },
+        "type": "ssl",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "extracted-results": [
+          "pp.exterieur.serveureos.org",
+          "pp.passager.serveureos.org",
+          "pp.pcr.serveureos.org",
+          "pp.prelevement.serveureos.org",
+          "pp.covid.serveureos.org",
+          "pp.depistage.serveureos.org"
+        ],
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:34:46.719905699Z",
         "matcher-status": true,
         "matched-line": null
       },
@@ -5711,7 +5652,177 @@
         "extracted-results": [
           "serveureos.org."
         ],
-        "timestamp": "2022-06-26T01:33:33.929087231Z",
+        "timestamp": "2022-07-03T01:34:47.223199837Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/mx-fingerprint.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/mx-fingerprint.yaml",
+        "template-id": "mx-fingerprint",
+        "info": {
+          "name": "MX Record Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "mx"
+          ],
+          "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
+          "reference": [
+            "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
+            "https://mxtoolbox.com/"
+          ],
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "extracted-results": [
+          "1 mx1.mail.ovh.net.",
+          "100 mx3.mail.ovh.net.",
+          "5 mx2.mail.ovh.net."
+        ],
+        "timestamp": "2022-07-03T01:34:57.048837637Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "exposures/configs/composer-config.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/composer-config.yaml",
+        "template-id": "composer-config",
+        "info": {
+          "name": "composer-config-file",
+          "author": [
+            "mahendra purbia (mah3sec_)"
+          ],
+          "tags": [
+            "config",
+            "exposure"
+          ],
+          "reference": null,
+          "severity": "info"
+        },
+        "matcher-name": "composer.json",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/composer.json",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:35:04.591217591Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/composer.json'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/nameserver-fingerprint.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/nameserver-fingerprint.yaml",
+        "template-id": "nameserver-fingerprint",
+        "info": {
+          "name": "NS Record Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "ns"
+          ],
+          "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+          "reference": null,
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "extracted-results": [
+          "ns19.ovh.net.",
+          "dns19.ovh.net."
+        ],
+        "timestamp": "2022-07-03T01:35:10.907836615Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/txt-fingerprint.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/txt-fingerprint.yaml",
+        "template-id": "txt-fingerprint",
+        "info": {
+          "name": "DNS TXT Record Detected",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "txt"
+          ],
+          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
+          "reference": [
+            "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
+          ],
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "extracted-results": [
+          "\"v=spf1 ip4:135.125.34.177 ip4:135.125.34.178  ip4:135.125.34.179  ip4:135.125.34.180 include:ovh.net include:ovh.com ~all\""
+        ],
+        "timestamp": "2022-07-03T01:35:24.420476018Z",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "technologies/waf-detect.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/waf-detect.yaml",
+        "template-id": "waf-detect",
+        "info": {
+          "name": "WAF Detection",
+          "author": [
+            "dwisiswant0",
+            "lu4nx"
+          ],
+          "tags": [
+            "waf",
+            "tech",
+            "misc"
+          ],
+          "description": "A web application firewall was detected.",
+          "reference": [
+            "https://github.com/ekultek/whatwaf"
+          ],
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "matcher-name": "nginxgeneric",
+        "type": "http",
+        "host": "https://pp.passager.serveureos.org/",
+        "matched-at": "https://pp.passager.serveureos.org/",
+        "ip": "135.125.34.180",
+        "timestamp": "2022-07-03T01:35:26.132096162Z",
+        "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: pp.passager.serveureos.org' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://pp.passager.serveureos.org/'",
         "matcher-status": true,
         "matched-line": null
       }
@@ -5719,15 +5830,13 @@
     "lhr": {
       "requestedUrl": "https://pp.passager.serveureos.org/",
       "finalUrl": "https://pp.passager.serveureos.org/",
-      "fetchTime": "2022-06-26T01:26:29.439Z",
-      "runWarnings": [
-        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/master/docs/throttling.md#cpu-throttling)."
-      ],
+      "fetchTime": "2022-07-03T01:29:31.574Z",
+      "runWarnings": [],
       "categories": {
         "performance": {
           "title": "Performance",
           "id": "performance",
-          "score": 0.9165815353393555
+          "score": 0.9165781021118165
         },
         "accessibility": {
           "title": "Accessibility",
@@ -5763,49 +5872,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 3373,
+          "numericValue": 3126,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 2794,
-                "firstMeaningfulPaint": 3373,
-                "largestContentfulPaint": 4927,
-                "firstCPUIdle": 3373,
-                "interactive": 3373,
-                "speedIndex": 3227,
+                "firstContentfulPaint": 2204,
+                "firstMeaningfulPaint": 3126,
+                "largestContentfulPaint": 3972,
+                "firstCPUIdle": 3126,
+                "interactive": 3126,
+                "speedIndex": 2204,
                 "estimatedInputLatency": 13,
                 "totalBlockingTime": 0,
-                "maxPotentialFID": 30,
+                "maxPotentialFID": 16,
                 "cumulativeLayoutShift": 0.03543757332695855,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 449179829,
+                "observedTimeOriginTs": 258975899,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 449179829,
-                "observedFirstPaint": 1073,
-                "observedFirstPaintTs": 450252969,
-                "observedFirstContentfulPaint": 1073,
-                "observedFirstContentfulPaintTs": 450252969,
-                "observedFirstMeaningfulPaint": 1164,
-                "observedFirstMeaningfulPaintTs": 450344260,
-                "observedLargestContentfulPaint": 1356,
-                "observedLargestContentfulPaintTs": 450535520,
-                "observedTraceEnd": 3300,
-                "observedTraceEndTs": 452480186,
-                "observedLoad": 2239,
-                "observedLoadTs": 451418490,
-                "observedDomContentLoaded": 1328,
-                "observedDomContentLoadedTs": 450508064,
+                "observedNavigationStartTs": 258975899,
+                "observedFirstPaint": 623,
+                "observedFirstPaintTs": 259598482,
+                "observedFirstContentfulPaint": 623,
+                "observedFirstContentfulPaintTs": 259598482,
+                "observedFirstMeaningfulPaint": 676,
+                "observedFirstMeaningfulPaintTs": 259651707,
+                "observedLargestContentfulPaint": 797,
+                "observedLargestContentfulPaintTs": 259772487,
+                "observedTraceEnd": 2360,
+                "observedTraceEndTs": 261335750,
+                "observedLoad": 1301,
+                "observedLoadTs": 260276629,
+                "observedDomContentLoaded": 781,
+                "observedDomContentLoadedTs": 259756620,
                 "observedCumulativeLayoutShift": 0.03543757332695855,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 1085,
-                "observedFirstVisualChangeTs": 450264829,
-                "observedLastVisualChange": 1785,
-                "observedLastVisualChangeTs": 450964829,
-                "observedSpeedIndex": 1128,
-                "observedSpeedIndexTs": 450307487
+                "observedFirstVisualChange": 630,
+                "observedFirstVisualChangeTs": 259605899,
+                "observedLastVisualChange": 1230,
+                "observedLastVisualChangeTs": 260205899,
+                "observedSpeedIndex": 663,
+                "observedSpeedIndexTs": 259638447
               },
               {
                 "lcpInvalidated": false
@@ -5827,18 +5936,18 @@
                 "numScripts": 4,
                 "numStylesheets": 6,
                 "numFonts": 2,
-                "numTasks": 280,
-                "numTasksOver10ms": 4,
-                "numTasksOver25ms": 3,
-                "numTasksOver50ms": 1,
+                "numTasks": 270,
+                "numTasksOver10ms": 1,
+                "numTasksOver25ms": 0,
+                "numTasksOver50ms": 0,
                 "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
-                "rtt": 1.0610000000000002,
-                "throughput": 14556532.323340783,
-                "maxRtt": 156.126,
-                "maxServerLatency": 22.657000000000004,
-                "totalByteWeight": 1485929,
-                "totalTaskTime": 244.10699999999972,
+                "rtt": 5.345000000000001,
+                "throughput": 24610531.894628968,
+                "maxRtt": 88.199,
+                "maxServerLatency": 56.94199999999999,
+                "totalByteWeight": 1485947,
+                "totalTaskTime": 90.24400000000003,
                 "mainDocumentTransferSize": 2170
               }
             ]
@@ -5856,6 +5965,7 @@
     "betagouv": null,
     "summary": {
       "404": "A+",
+      "httpGrade": "C",
       "nmapGrade": "A",
       "nmapOpenPortsCount": 2,
       "nmapOpenPortsGrade": "A",
@@ -5866,7 +5976,7 @@
       "cookiesCount": 1,
       "trackersGrade": "C",
       "trackersCount": 7,
-      "lighthouse_performance": 0.9165815353393555,
+      "lighthouse_performance": 0.9165781021118165,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.78,
       "lighthouse_accessibilityGrade": "B",
