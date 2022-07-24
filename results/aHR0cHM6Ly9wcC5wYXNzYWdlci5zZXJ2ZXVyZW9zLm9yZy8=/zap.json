@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 17 Jul 2022 01:42:20",
+	"@generated": "Sun, 24 Jul 2022 01:45:36",
 	"site":[ 
 		{
 			"@name": "https://pp.passager.serveureos.org",
@@ -411,84 +411,84 @@
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000007759"
+							"evidence": "0000007708"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000008229"
+							"evidence": "0000008178"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009608"
+							"evidence": "0000009557"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009674"
+							"evidence": "0000009623"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009780"
+							"evidence": "0000009729"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009891"
+							"evidence": "0000009840"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010005"
+							"evidence": "0000009954"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010454"
+							"evidence": "0000010403"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010589"
+							"evidence": "0000010538"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010806"
+							"evidence": "0000010755"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000011310"
+							"evidence": "0000011259"
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000016161"
+							"evidence": "0000016110"
 						}
 					],
 					"count": "14",
@@ -737,11 +737,11 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>pp.passager.serveureos.org</p><p>PHPSESSID=h5vkrhb1932ciinbq159t93il0</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>pp.passager.serveureos.org</p><p>PHPSESSID=1trfhq6qajmnv52rgsidlgfksm</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10109",
