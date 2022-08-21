@@ -22,7 +22,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v29/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+      "url": "https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -30,7 +30,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v29/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2",
+      "url": "https://fonts.gstatic.com/s/opensans/v34/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -38,7 +38,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v29/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+      "url": "https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -46,7 +46,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v29/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2",
+      "url": "https://fonts.gstatic.com/s/opensans/v34/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -56,7 +56,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "qs647c1hfujavgf7bk62f5deil",
+      "value": "hp1g1hrllv8qq40i1l2su6lej2",
       "domain": ".serveureos.org",
       "path": "/",
       "expires": -1,
@@ -76,11 +76,11 @@
     "content-encoding": "gzip",
     "content-length": "1615",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 14 Aug 2022 01:29:05 GMT",
+    "date": "Sun, 21 Aug 2022 01:26:40 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=qs647c1hfujavgf7bk62f5deil; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+    "set-cookie": "PHPSESSID=hp1g1hrllv8qq40i1l2su6lej2; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
     "strict-transport-security": "max-age=2592000; includeSubDomains",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
@@ -145,7 +145,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.12.234",
+      "ip": "142.250.113.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -199,12 +199,12 @@
     },
     {
       "hostname": "getbootstrap.com",
-      "ip": "104.22.58.100",
+      "ip": "104.22.59.100",
       "geoip": null
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.42",
+      "ip": "69.16.175.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -258,7 +258,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.45.99",
+      "ip": "142.250.114.94",
       "geoip": {
         "continent": {
           "code": "NA",

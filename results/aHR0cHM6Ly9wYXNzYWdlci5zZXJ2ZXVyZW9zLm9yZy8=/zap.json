@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 14 Aug 2022 01:28:10",
+	"@generated": "Sun, 21 Aug 2022 01:26:04",
 	"site":[ 
 		{
 			"@name": "https://passager.serveureos.org",
@@ -152,7 +152,7 @@
 					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "76"
+					"sourceid": "77"
 				},
 				{
 					"pluginid": "90003",
@@ -411,84 +411,84 @@
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000007814"
+							"evidence": "0000007908"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000008284"
+							"evidence": "0000008378"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009663"
+							"evidence": "0000009757"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009729"
+							"evidence": "0000009823"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009835"
+							"evidence": "0000009929"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000009946"
+							"evidence": "0000010040"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010060"
+							"evidence": "0000010154"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010509"
+							"evidence": "0000010603"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010644"
+							"evidence": "0000010738"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000010861"
+							"evidence": "0000010955"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000011365"
+							"evidence": "0000011459"
 						},
 						{
 							"uri": "https://passager.serveureos.org/qrcode/qrcode.php",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "0000016216"
+							"evidence": "0000016310"
 						}
 					],
 					"count": "14",
@@ -708,7 +708,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "77"
+					"sourceid": "76"
 				},
 				{
 					"pluginid": "90033",
@@ -737,7 +737,7 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=jhs5n429o8nq5n56ajgd9isr3k</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=cg6br76urhfe698j7oflnkvl8p</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
@@ -1025,7 +1025,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "76"
+					"sourceid": "77"
 				}
 			]
 		}
