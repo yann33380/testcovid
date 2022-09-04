@@ -56,7 +56,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "nea599n4ub7kn8elagii7iji0u",
+      "value": "k664gghmevh5uvu97him7tkkuj",
       "domain": ".serveureos.org",
       "path": "/",
       "expires": -1,
@@ -76,11 +76,11 @@
     "content-encoding": "gzip",
     "content-length": "1615",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 28 Aug 2022 01:52:32 GMT",
+    "date": "Sun, 04 Sep 2022 01:44:26 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=nea599n4ub7kn8elagii7iji0u; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+    "set-cookie": "PHPSESSID=k664gghmevh5uvu97him7tkkuj; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
     "strict-transport-security": "max-age=2592000; includeSubDomains",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
@@ -145,7 +145,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.114.95",
+      "ip": "172.217.164.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -204,7 +204,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.10",
+      "ip": "69.16.175.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -258,7 +258,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.45.67",
+      "ip": "142.250.189.195",
       "geoip": {
         "continent": {
           "code": "NA",
