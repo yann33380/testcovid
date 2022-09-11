@@ -346,7 +346,7 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "59 >= 30 days"
+              "finding"      : "52 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1662255899"
+              "finding"      : "1662860875"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1154,6 +1154,6 @@
               "ip"           : "passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "178"
+              "finding"      : "124"
           }
 ]
