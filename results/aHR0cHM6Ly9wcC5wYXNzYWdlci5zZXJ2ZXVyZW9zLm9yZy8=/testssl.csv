@@ -47,7 +47,7 @@
 "cert_trust","pp.passager.serveureos.org/135.125.34.180","443","OK","Ok via SAN (SNI mandatory)","",""
 "cert_chain_of_trust","pp.passager.serveureos.org/135.125.34.180","443","OK","passed.","",""
 "cert_certificatePolicies_EV","pp.passager.serveureos.org/135.125.34.180","443","INFO","no","",""
-"cert_expirationStatus","pp.passager.serveureos.org/135.125.34.180","443","OK","68 >= 30 days","",""
+"cert_expirationStatus","pp.passager.serveureos.org/135.125.34.180","443","OK","61 >= 30 days","",""
 "cert_notBefore","pp.passager.serveureos.org/135.125.34.180","443","INFO","2022-09-17 08:57","",""
 "cert_notAfter","pp.passager.serveureos.org/135.125.34.180","443","OK","2022-12-16 08:57","",""
 "cert_extlifeSpan","pp.passager.serveureos.org/135.125.34.180","443","OK","certificate has no extended life time according to browser forum","",""
