@@ -5,7 +5,7 @@
     "http": {
       "url": "https://passager.serveureos.org/",
       "algorithm_version": 2,
-      "end_time": "Sun, 09 Oct 2022 01:46:33 GMT",
+      "end_time": "Sun, 16 Oct 2022 01:59:20 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -15,19 +15,19 @@
         "Content-Encoding": "gzip",
         "Content-Length": "1615",
         "Content-Type": "text/html;charset=UTF-8",
-        "Date": "Sun, 09 Oct 2022 01:46:32 GMT",
+        "Date": "Sun, 16 Oct 2022 01:59:19 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Pragma": "no-cache",
         "Server": "nginx",
-        "Set-Cookie": "PHPSESSID=ficmplt1s9mda12stoul68g1is; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "Set-Cookie": "PHPSESSID=frtvmlta149in7g639p9112npu; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "Strict-Transport-Security": "max-age=2592000; includeSubDomains",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-FRAME-OPTIONS": "SAMEORIGIN"
       },
-      "scan_id": 29983446,
+      "scan_id": 30154863,
       "score": 55,
-      "start_time": "Sun, 09 Oct 2022 01:46:28 GMT",
+      "start_time": "Sun, 16 Oct 2022 01:59:16 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 3,
@@ -587,7 +587,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "84 >= 30 days"
+        "finding": "77 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -790,7 +790,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "1665280091"
+        "finding": "1665885678"
       },
       {
         "id": "HSTS_time",
@@ -1395,7 +1395,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "122"
+        "finding": "153"
       }
     ],
     "thirdparties": {
@@ -1456,7 +1456,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "dg8mrfag900ulv5lo4bab9pbrh",
+          "value": "52u42pf5aebokjfa0ugg7csuuu",
           "domain": ".serveureos.org",
           "path": "/",
           "expires": -1,
@@ -1476,11 +1476,11 @@
         "content-encoding": "gzip",
         "content-length": "1615",
         "content-type": "text/html;charset=UTF-8",
-        "date": "Sun, 09 Oct 2022 01:47:05 GMT",
+        "date": "Sun, 16 Oct 2022 01:59:55 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "pragma": "no-cache",
         "server": "nginx",
-        "set-cookie": "PHPSESSID=dg8mrfag900ulv5lo4bab9pbrh; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "set-cookie": "PHPSESSID=52u42pf5aebokjfa0ugg7csuuu; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "strict-transport-security": "max-age=2592000; includeSubDomains",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
@@ -1545,7 +1545,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.111.95",
+          "ip": "142.251.45.10",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1599,42 +1599,8 @@
         },
         {
           "hostname": "getbootstrap.com",
-          "ip": "172.67.30.148",
+          "ip": "104.22.59.100",
           "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
             "registered_country": {
               "geoname_id": 6252001,
               "iso_code": "US",
@@ -1653,7 +1619,7 @@
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "69.16.175.10",
+          "ip": "69.16.175.42",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1935,7 +1901,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Sun, 9 Oct 2022 01:46:11",
+      "@generated": "Sun, 16 Oct 2022 01:58:55",
       "site": [
         {
           "@name": "https://passager.serveureos.org",
@@ -2078,13 +2044,15 @@
       {
         "requestedUrl": "https://passager.serveureos.org/",
         "finalUrl": "https://passager.serveureos.org/",
-        "fetchTime": "2022-10-09T01:46:19.944Z",
-        "runWarnings": [],
+        "fetchTime": "2022-10-16T01:59:03.902Z",
+        "runWarnings": [
+          "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/master/docs/throttling.md#cpu-throttling)."
+        ],
         "categories": {
           "performance": {
             "title": "Performance",
             "id": "performance",
-            "score": 0.9165925979614258
+            "score": 0.916590690612793
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2120,49 +2088,49 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3121,
+            "numericValue": 4103,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2206,
-                  "firstMeaningfulPaint": 3121,
-                  "largestContentfulPaint": 3965,
-                  "firstCPUIdle": 3121,
-                  "interactive": 3121,
-                  "speedIndex": 2206,
+                  "firstContentfulPaint": 2387,
+                  "firstMeaningfulPaint": 3170,
+                  "largestContentfulPaint": 3993,
+                  "firstCPUIdle": 3170,
+                  "interactive": 4103,
+                  "speedIndex": 2438,
                   "estimatedInputLatency": 13,
-                  "totalBlockingTime": 0,
-                  "maxPotentialFID": 16,
+                  "totalBlockingTime": 8,
+                  "maxPotentialFID": 65,
                   "cumulativeLayoutShift": 0.03543757332695855,
                   "cumulativeLayoutShiftAllFrames": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 312423624,
+                  "observedTimeOriginTs": 181721987,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 312423624,
-                  "observedFirstPaint": 618,
-                  "observedFirstPaintTs": 313041203,
-                  "observedFirstContentfulPaint": 618,
-                  "observedFirstContentfulPaintTs": 313041203,
-                  "observedFirstMeaningfulPaint": 658,
-                  "observedFirstMeaningfulPaintTs": 313081514,
-                  "observedLargestContentfulPaint": 785,
-                  "observedLargestContentfulPaintTs": 313208806,
-                  "observedTraceEnd": 2339,
-                  "observedTraceEndTs": 314762322,
-                  "observedLoad": 1281,
-                  "observedLoadTs": 313704478,
-                  "observedDomContentLoaded": 768,
-                  "observedDomContentLoadedTs": 313191785,
+                  "observedNavigationStartTs": 181721987,
+                  "observedFirstPaint": 780,
+                  "observedFirstPaintTs": 182501599,
+                  "observedFirstContentfulPaint": 780,
+                  "observedFirstContentfulPaintTs": 182501599,
+                  "observedFirstMeaningfulPaint": 818,
+                  "observedFirstMeaningfulPaintTs": 182540251,
+                  "observedLargestContentfulPaint": 892,
+                  "observedLargestContentfulPaintTs": 182613958,
+                  "observedTraceEnd": 2453,
+                  "observedTraceEndTs": 184174557,
+                  "observedLoad": 1369,
+                  "observedLoadTs": 183090686,
+                  "observedDomContentLoaded": 867,
+                  "observedDomContentLoadedTs": 182589239,
                   "observedCumulativeLayoutShift": 0.03543757332695855,
                   "observedCumulativeLayoutShiftAllFrames": 0,
-                  "observedFirstVisualChange": 630,
-                  "observedFirstVisualChangeTs": 313053624,
-                  "observedLastVisualChange": 1230,
-                  "observedLastVisualChangeTs": 313653624,
-                  "observedSpeedIndex": 657,
-                  "observedSpeedIndexTs": 313080643
+                  "observedFirstVisualChange": 787,
+                  "observedFirstVisualChangeTs": 182508987,
+                  "observedLastVisualChange": 1404,
+                  "observedLastVisualChangeTs": 183125987,
+                  "observedSpeedIndex": 812,
+                  "observedSpeedIndexTs": 182533698
                 },
                 {
                   "lcpInvalidated": false
@@ -2184,18 +2152,18 @@
                   "numScripts": 4,
                   "numStylesheets": 6,
                   "numFonts": 2,
-                  "numTasks": 268,
-                  "numTasksOver10ms": 1,
-                  "numTasksOver25ms": 1,
-                  "numTasksOver50ms": 0,
-                  "numTasksOver100ms": 0,
+                  "numTasks": 265,
+                  "numTasksOver10ms": 6,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 5.352,
-                  "throughput": 24991575.543634046,
-                  "maxRtt": 89.08200000000001,
-                  "maxServerLatency": 15.801999999999996,
-                  "totalByteWeight": 1485871,
-                  "totalTaskTime": 112.43699999999998,
+                  "rtt": 1.6769999999999996,
+                  "throughput": 24645512.013785586,
+                  "maxRtt": 84.047,
+                  "maxServerLatency": 18.877999999999997,
+                  "totalByteWeight": 1485881,
+                  "totalTaskTime": 386.6099999999999,
                   "mainDocumentTransferSize": 2170
                 }
               ]
@@ -2226,7 +2194,7 @@
       "cookiesCount": 1,
       "trackersGrade": "C",
       "trackersCount": 7,
-      "lighthouse_performance": 0.9165925979614258,
+      "lighthouse_performance": 0.916590690612793,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.78,
       "lighthouse_accessibilityGrade": "B",
@@ -2244,7 +2212,7 @@
     "http": {
       "url": "https://pp.passager.serveureos.org/",
       "algorithm_version": 2,
-      "end_time": "Sun, 09 Oct 2022 01:48:22 GMT",
+      "end_time": "Sun, 16 Oct 2022 02:01:11 GMT",
       "grade": "D",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2252,13 +2220,13 @@
         "Connection": "keep-alive",
         "Content-Length": "166",
         "Content-Type": "text/html",
-        "Date": "Sun, 09 Oct 2022 01:48:21 GMT",
+        "Date": "Sun, 16 Oct 2022 02:01:10 GMT",
         "Server": "nginx",
         "Strict-Transport-Security": "max-age=2592000; includeSubDomains"
       },
-      "scan_id": 29983475,
+      "scan_id": 30154882,
       "score": 30,
-      "start_time": "Sun, 09 Oct 2022 01:48:18 GMT",
+      "start_time": "Sun, 16 Oct 2022 02:00:17 GMT",
       "state": "FINISHED",
       "status_code": 502,
       "tests_failed": 5,
@@ -2338,15 +2306,12 @@
           "output": {
             "destination": null,
             "redirects": true,
-            "route": [
-              "http://pp.passager.serveureos.org/",
-              "https://pp.passager.serveureos.org/"
-            ],
+            "route": [],
             "status_code": null
           },
           "pass": true,
-          "result": "redirection-to-https",
-          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
+          "result": "redirection-not-needed-no-http",
+          "score_description": "Not able to connect via HTTP, so no redirection necessary",
           "score_modifier": 0
         },
         "referrer-policy": {
@@ -2798,7 +2763,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "68 >= 30 days"
+        "finding": "61 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3470,7 +3435,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "190"
+        "finding": "185"
       }
     ],
     "thirdparties": {
@@ -3480,7 +3445,7 @@
         "connection": "keep-alive",
         "content-length": "568",
         "content-type": "text/html",
-        "date": "Sun, 09 Oct 2022 01:49:29 GMT",
+        "date": "Sun, 16 Oct 2022 02:02:11 GMT",
         "server": "nginx",
         "strict-transport-security": "max-age=2592000; includeSubDomains"
       },
