@@ -1,6 +1,6 @@
 {
-	"@version": "2.11.1",
-	"@generated": "Sun, 23 Oct 2022 01:47:10",
+	"@version": "2.12.0",
+	"@generated": "Sun, 30 Oct 2022 01:48:26",
 	"site":[ 
 		{
 			"@name": "https://passager.serveureos.org",
@@ -407,13 +407,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/img/EN.png",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://passager.serveureos.org/img/FR.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -429,6 +422,13 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/img/logo.png",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://passager.serveureos.org/img/PT.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -620,11 +620,11 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=go9mnea1o3n4ojmno3dkp1p699</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=9cnngco8f35rrvrg808nlptmtn</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10109",
@@ -736,7 +736,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/img/logo.png",
+							"uri": "https://passager.serveureos.org/js/global.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
