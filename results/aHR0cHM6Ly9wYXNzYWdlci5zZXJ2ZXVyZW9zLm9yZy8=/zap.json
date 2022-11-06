@@ -1,6 +1,6 @@
 {
 	"@version": "2.12.0",
-	"@generated": "Sun, 30 Oct 2022 01:48:26",
+	"@generated": "Sun, 6 Nov 2022 01:27:06",
 	"site":[ 
 		{
 			"@name": "https://passager.serveureos.org",
@@ -46,7 +46,7 @@
 					"reference": "<p>http://projects.webappsec.org/Cross-Site-Request-Forgery</p><p>http://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10038",
@@ -73,13 +73,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://passager.serveureos.org/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -94,13 +87,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header, to achieve optimal browser support: \"Content-Security-Policy\" for Chrome 25+, Firefox 23+ and Safari 7+, \"X-Content-Security-Policy\" for Firefox 4.0+ and Internet Explorer 10+, and \"X-WebKit-CSP\" for Chrome 14+ and Safari 6+.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10020",
@@ -407,6 +400,20 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://passager.serveureos.org/img/DE.png",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://passager.serveureos.org/img/EN.png",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://passager.serveureos.org/img/FR.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -415,13 +422,6 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/img/logo-gouvernement.png",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/img/logo.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -450,13 +450,6 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/vendor/font-awesome-4.7/css/font-awesome.min.css",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/vendor/jquery/jquery.min.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -591,7 +584,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "76"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "90033",
@@ -620,11 +613,11 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=9cnngco8f35rrvrg808nlptmtn</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=1utuqkaa6042ic9gbajdma38e6</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -736,6 +729,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://passager.serveureos.org/img/FR.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://passager.serveureos.org/js/global.js",
 							"method": "GET",
 							"param": "",
@@ -765,13 +765,6 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/vendor/font-awesome-4.7/css/font-awesome.min.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/vendor/jquery/jquery.min.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -908,7 +901,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "77"
+					"sourceid": "79"
 				}
 			]
 		}
