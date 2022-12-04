@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 27 Nov 2022 01:17:48",
+	"@generated": "Sun, 4 Dec 2022 01:10:20",
 	"site":[ 
 		{
 			"@name": "https://passager.serveureos.org",
@@ -47,7 +47,7 @@
 					"reference": "<p>http://projects.webappsec.org/Cross-Site-Request-Forgery</p><p>http://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10038",
@@ -221,7 +221,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10003",
@@ -247,7 +247,7 @@
 					"reference": "<p>https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2019-11358</p><p>https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "50"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10017",
@@ -313,7 +313,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "50"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10063",
@@ -381,7 +381,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10021",
@@ -436,13 +436,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/img/PT.png",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://passager.serveureos.org/js/global.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -458,6 +451,13 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/vendor/font-awesome-4.7/css/font-awesome.min.css",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://passager.serveureos.org/vendor/jquery/jquery.min.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -484,7 +484,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "44"
+					"sourceid": "46"
 				},
 				{
 					"pluginid": "10094",
@@ -538,7 +538,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10027",
@@ -621,7 +621,7 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=lq95o4v2g2bjsqojp9k9vdu2d8</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=gacfa47m3abk80va029udh6n83</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
@@ -658,7 +658,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "50"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10049",
@@ -737,7 +737,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/img/logo.png",
+							"uri": "https://passager.serveureos.org/img/logo-gouvernement.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -799,7 +799,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "44"
+					"sourceid": "46"
 				},
 				{
 					"pluginid": "10031",
