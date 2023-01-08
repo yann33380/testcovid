@@ -5,7 +5,7 @@
     "http": {
       "url": "https://passager.serveureos.org/",
       "algorithm_version": 2,
-      "end_time": "Sun, 01 Jan 2023 01:16:01 GMT",
+      "end_time": "Sun, 08 Jan 2023 01:11:54 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -15,19 +15,19 @@
         "Content-Encoding": "gzip",
         "Content-Length": "1615",
         "Content-Type": "text/html;charset=UTF-8",
-        "Date": "Sun, 01 Jan 2023 01:15:59 GMT",
+        "Date": "Sun, 08 Jan 2023 01:11:52 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Pragma": "no-cache",
         "Server": "nginx",
-        "Set-Cookie": "PHPSESSID=uvqickibg3f6eme07kd3182smc; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "Set-Cookie": "PHPSESSID=dl60v75jm46t0d2umc44gn16kp; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "Strict-Transport-Security": "max-age=2592000; includeSubDomains",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-FRAME-OPTIONS": "SAMEORIGIN"
       },
-      "scan_id": 32596251,
+      "scan_id": 32880529,
       "score": 55,
-      "start_time": "Sun, 01 Jan 2023 01:15:57 GMT",
+      "start_time": "Sun, 08 Jan 2023 01:11:50 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 3,
@@ -581,7 +581,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "60 >= 30 days"
+        "finding": "53 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -784,7 +784,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "1672535861"
+        "finding": "1673140416"
       },
       {
         "id": "HSTS_time",
@@ -1389,7 +1389,7 @@
         "ip": "passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "120"
+        "finding": "121"
       }
     ],
     "thirdparties": {
@@ -1450,7 +1450,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "f5jbscq1vbq0874tl2nirt0ruk",
+          "value": "msmr46tl6m2nqt25ql37ikk0j9",
           "domain": ".serveureos.org",
           "path": "/",
           "expires": -1,
@@ -1470,11 +1470,11 @@
         "content-encoding": "gzip",
         "content-length": "1615",
         "content-type": "text/html;charset=UTF-8",
-        "date": "Sun, 01 Jan 2023 01:16:34 GMT",
+        "date": "Sun, 08 Jan 2023 01:12:28 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "pragma": "no-cache",
         "server": "nginx",
-        "set-cookie": "PHPSESSID=f5jbscq1vbq0874tl2nirt0ruk; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "set-cookie": "PHPSESSID=msmr46tl6m2nqt25ql37ikk0j9; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
         "strict-transport-security": "max-age=2592000; includeSubDomains",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
@@ -1539,7 +1539,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.111.95",
+          "ip": "172.253.63.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1593,42 +1593,8 @@
         },
         {
           "hostname": "getbootstrap.com",
-          "ip": "172.67.30.148",
+          "ip": "104.22.59.100",
           "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
             "registered_country": {
               "geoname_id": 6252001,
               "iso_code": "US",
@@ -1647,7 +1613,7 @@
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "69.16.175.10",
+          "ip": "69.16.175.42",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1939,7 +1905,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.12.0",
-      "@generated": "Sun, 1 Jan 2023 01:15:40",
+      "@generated": "Sun, 8 Jan 2023 01:11:34",
       "site": [
         {
           "@name": "https://passager.serveureos.org",
@@ -2082,13 +2048,13 @@
       {
         "requestedUrl": "https://passager.serveureos.org/",
         "finalUrl": "https://passager.serveureos.org/",
-        "fetchTime": "2023-01-01T01:15:48.678Z",
+        "fetchTime": "2023-01-08T01:11:42.074Z",
         "runWarnings": [],
         "categories": {
           "performance": {
             "title": "Performance",
             "id": "performance",
-            "score": 0.9165361404418946
+            "score": 0.916536521911621
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2124,49 +2090,49 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3153,
+            "numericValue": 3109,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2298,
-                  "firstMeaningfulPaint": 3153,
-                  "largestContentfulPaint": 4244,
-                  "firstCPUIdle": 3153,
-                  "interactive": 3153,
-                  "speedIndex": 2298,
+                  "firstContentfulPaint": 2141,
+                  "firstMeaningfulPaint": 3109,
+                  "largestContentfulPaint": 3926,
+                  "firstCPUIdle": 3109,
+                  "interactive": 3109,
+                  "speedIndex": 2141,
                   "estimatedInputLatency": 13,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.03543757332695855,
                   "cumulativeLayoutShiftAllFrames": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 230796587,
+                  "observedTimeOriginTs": 147453359,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 230796587,
-                  "observedFirstPaint": 601,
-                  "observedFirstPaintTs": 231397839,
-                  "observedFirstContentfulPaint": 601,
-                  "observedFirstContentfulPaintTs": 231397839,
-                  "observedFirstMeaningfulPaint": 654,
-                  "observedFirstMeaningfulPaintTs": 231450841,
-                  "observedLargestContentfulPaint": 762,
-                  "observedLargestContentfulPaintTs": 231559056,
-                  "observedTraceEnd": 2218,
-                  "observedTraceEndTs": 233014438,
-                  "observedLoad": 1162,
-                  "observedLoadTs": 231958310,
-                  "observedDomContentLoaded": 750,
-                  "observedDomContentLoadedTs": 231546696,
+                  "observedNavigationStartTs": 147453359,
+                  "observedFirstPaint": 591,
+                  "observedFirstPaintTs": 148044749,
+                  "observedFirstContentfulPaint": 591,
+                  "observedFirstContentfulPaintTs": 148044749,
+                  "observedFirstMeaningfulPaint": 634,
+                  "observedFirstMeaningfulPaintTs": 148087470,
+                  "observedLargestContentfulPaint": 743,
+                  "observedLargestContentfulPaintTs": 148196623,
+                  "observedTraceEnd": 2204,
+                  "observedTraceEndTs": 149657810,
+                  "observedLoad": 1146,
+                  "observedLoadTs": 148599722,
+                  "observedDomContentLoaded": 734,
+                  "observedDomContentLoadedTs": 148187446,
                   "observedCumulativeLayoutShift": 0.03543757332695855,
                   "observedCumulativeLayoutShiftAllFrames": 0,
-                  "observedFirstVisualChange": 610,
-                  "observedFirstVisualChangeTs": 231406587,
-                  "observedLastVisualChange": 1210,
-                  "observedLastVisualChangeTs": 232006587,
-                  "observedSpeedIndex": 639,
-                  "observedSpeedIndexTs": 231435742
+                  "observedFirstVisualChange": 590,
+                  "observedFirstVisualChangeTs": 148043359,
+                  "observedLastVisualChange": 1190,
+                  "observedLastVisualChangeTs": 148643359,
+                  "observedSpeedIndex": 620,
+                  "observedSpeedIndexTs": 148073244
                 },
                 {
                   "lcpInvalidated": false
@@ -2188,18 +2154,18 @@
                   "numScripts": 4,
                   "numStylesheets": 6,
                   "numFonts": 2,
-                  "numTasks": 268,
-                  "numTasksOver10ms": 1,
+                  "numTasks": 270,
+                  "numTasksOver10ms": 2,
                   "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 5.23,
-                  "throughput": 31544983.961314693,
-                  "maxRtt": 88.103,
-                  "maxServerLatency": 23.56299999999999,
-                  "totalByteWeight": 1486167,
-                  "totalTaskTime": 95.81900000000006,
+                  "rtt": 5.3069999999999995,
+                  "throughput": 30981053.311829776,
+                  "maxRtt": 84.621,
+                  "maxServerLatency": 15.739,
+                  "totalByteWeight": 1486165,
+                  "totalTaskTime": 99.77499999999998,
                   "mainDocumentTransferSize": 2170
                 }
               ]
@@ -2230,7 +2196,7 @@
       "cookiesCount": 1,
       "trackersGrade": "C",
       "trackersCount": 7,
-      "lighthouse_performance": 0.9165361404418946,
+      "lighthouse_performance": 0.916536521911621,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.78,
       "lighthouse_accessibilityGrade": "B",
@@ -2248,25 +2214,33 @@
     "http": {
       "url": "https://pp.passager.serveureos.org/",
       "algorithm_version": 2,
-      "end_time": "Sun, 01 Jan 2023 01:18:16 GMT",
-      "grade": "D",
+      "end_time": "Sun, 08 Jan 2023 01:11:54 GMT",
+      "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
       "response_headers": {
+        "Cache-Control": "no-store, no-cache, must-revalidate",
         "Connection": "keep-alive",
-        "Content-Length": "166",
-        "Content-Type": "text/html",
-        "Date": "Sun, 01 Jan 2023 01:18:15 GMT",
+        "Content-Encoding": "gzip",
+        "Content-Length": "1615",
+        "Content-Type": "text/html;charset=UTF-8",
+        "Date": "Sun, 08 Jan 2023 01:11:53 GMT",
+        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "Pragma": "no-cache",
         "Server": "nginx",
-        "Strict-Transport-Security": "max-age=2592000; includeSubDomains"
+        "Set-Cookie": "PHPSESSID=m5cv5ngvcch5dd1folhtal5k2s; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "Strict-Transport-Security": "max-age=2592000; includeSubDomains",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-FRAME-OPTIONS": "SAMEORIGIN"
       },
-      "scan_id": 32596347,
-      "score": 30,
-      "start_time": "Sun, 01 Jan 2023 01:18:12 GMT",
+      "scan_id": 32880528,
+      "score": 55,
+      "start_time": "Sun, 08 Jan 2023 01:11:50 GMT",
       "state": "FINISHED",
-      "status_code": 502,
-      "tests_failed": 5,
-      "tests_passed": 7,
+      "status_code": 200,
+      "tests_failed": 3,
+      "tests_passed": 9,
       "tests_quantity": 12,
       "details": {
         "content-security-policy": {
@@ -2299,13 +2273,24 @@
           "expectation": "cookies-secure-with-httponly-sessions",
           "name": "cookies",
           "output": {
-            "data": null,
-            "sameSite": null
+            "data": {
+              "PHPSESSID": {
+                "domain": ".serveureos.org",
+                "expires": null,
+                "httponly": true,
+                "max-age": null,
+                "path": "/",
+                "port": null,
+                "samesite": "Strict",
+                "secure": true
+              }
+            },
+            "sameSite": true
           },
           "pass": true,
-          "result": "cookies-not-found",
-          "score_description": "No cookies detected",
-          "score_modifier": 0
+          "result": "cookies-secure-with-httponly-sessions-and-samesite",
+          "score_description": "All cookies use the Secure flag, session cookies use the HttpOnly flag, and cross-origin restrictions are in place via the SameSite flag",
+          "score_modifier": 5
         },
         "cross-origin-resource-sharing": {
           "expectation": "cross-origin-resource-sharing-not-implemented",
@@ -2341,13 +2326,13 @@
           "expectation": "redirection-to-https",
           "name": "redirection",
           "output": {
-            "destination": null,
+            "destination": "https://pp.passager.serveureos.org/",
             "redirects": true,
             "route": [
               "http://pp.passager.serveureos.org/",
               "https://pp.passager.serveureos.org/"
             ],
-            "status_code": null
+            "status_code": 200
           },
           "pass": true,
           "result": "redirection-to-https",
@@ -2386,34 +2371,43 @@
           "expectation": "sri-implemented-and-external-scripts-loaded-securely",
           "name": "subresource-integrity",
           "output": {
-            "data": {}
+            "data": {
+              "https://code.jquery.com/jquery-3.2.1.slim.min.js": {
+                "crossorigin": "anonymous",
+                "integrity": "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+              },
+              "https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js": {
+                "crossorigin": "anonymous",
+                "integrity": "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+              }
+            }
           },
           "pass": true,
-          "result": "sri-not-implemented-but-no-scripts-loaded",
-          "score_description": "Subresource Integrity (SRI) is not needed since site contains no script tags",
-          "score_modifier": 0
+          "result": "sri-implemented-and-external-scripts-loaded-securely",
+          "score_description": "Subresource Integrity (SRI) is implemented and all scripts are loaded securely",
+          "score_modifier": 5
         },
         "x-content-type-options": {
           "expectation": "x-content-type-options-nosniff",
           "name": "x-content-type-options",
           "output": {
-            "data": null
+            "data": "nosniff"
           },
-          "pass": false,
-          "result": "x-content-type-options-not-implemented",
-          "score_description": "X-Content-Type-Options header not implemented",
-          "score_modifier": -5
+          "pass": true,
+          "result": "x-content-type-options-nosniff",
+          "score_description": "X-Content-Type-Options header set to \"nosniff\"",
+          "score_modifier": 0
         },
         "x-frame-options": {
           "expectation": "x-frame-options-sameorigin-or-deny",
           "name": "x-frame-options",
           "output": {
-            "data": null
+            "data": "SAMEORIGIN"
           },
-          "pass": false,
-          "result": "x-frame-options-not-implemented",
-          "score_description": "X-Frame-Options (XFO) header not implemented",
-          "score_modifier": -20
+          "pass": true,
+          "result": "x-frame-options-sameorigin-or-deny",
+          "score_description": "X-Frame-Options (XFO) header set to SAMEORIGIN or DENY",
+          "score_modifier": 0
         },
         "x-xss-protection": {
           "expectation": "x-xss-protection-1-mode-block",
@@ -2460,8 +2454,8 @@
         "id": "service",
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
-        "severity": "DEBUG",
-        "finding": "Couldn't determine service, skipping all HTTP checks"
+        "severity": "INFO",
+        "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
@@ -2796,7 +2790,7 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "44 >= 30 days"
+        "finding": "37 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2981,6 +2975,126 @@
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
+        "id": "HTTP_status_code",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "200 OK ('/')"
+      },
+      {
+        "id": "HTTP_clock_skew",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 seconds from localtime"
+      },
+      {
+        "id": "HTTP_headerTime",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1673140417"
+      },
+      {
+        "id": "HSTS_time",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "MEDIUM",
+        "finding": "max-age too short. 30 days (=2592000 seconds) < 15552000 seconds"
+      },
+      {
+        "id": "HSTS_subdomains",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "OK",
+        "finding": "includes subdomains"
+      },
+      {
+        "id": "HSTS_preload",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "domain is NOT marked for preloading"
+      },
+      {
+        "id": "HPKP",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No support for HTTP Public Key Pinning"
+      },
+      {
+        "id": "banner_server",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "nginx"
+      },
+      {
+        "id": "banner_application",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No application banner found"
+      },
+      {
+        "id": "cookie_count",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1 at '/'"
+      },
+      {
+        "id": "cookie_secure",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "OK",
+        "finding": "All (1) at '/' marked as secure"
+      },
+      {
+        "id": "cookie_httponly",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "OK",
+        "finding": "All (1) at '/' marked as HttpOnly"
+      },
+      {
+        "id": "X-Frame-Options",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "OK",
+        "finding": "SAMEORIGIN"
+      },
+      {
+        "id": "X-Content-Type-Options",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "OK",
+        "finding": "nosniff"
+      },
+      {
+        "id": "Cache-Control",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no-store, no-cache, must-revalidate"
+      },
+      {
+        "id": "Pragma",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no-cache"
+      },
+      {
+        "id": "banner_reverseproxy",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-200",
+        "finding": "--"
+      },
+      {
         "id": "heartbleed",
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
@@ -3002,10 +3116,10 @@
         "id": "ticketbleed",
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
-        "severity": "INFO",
+        "severity": "OK",
         "cve": "CVE-2016-9244",
         "cwe": "CWE-200",
-        "finding": "not applicable, not HTTP"
+        "finding": "not vulnerable"
       },
       {
         "id": "ROBOT",
@@ -3040,7 +3154,16 @@
         "severity": "OK",
         "cve": "CVE-2012-4929",
         "cwe": "CWE-310",
-        "finding": "not vulnerable (not using HTTP anyway)"
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "BREACH",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "MEDIUM",
+        "cve": "CVE-2013-3587",
+        "cwe": "CWE-310",
+        "finding": "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
       },
       {
         "id": "POODLE_SSL",
@@ -3461,26 +3584,110 @@
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "OK",
-        "finding": "A+"
+        "finding": "A"
+      },
+      {
+        "id": "grade_cap_reason_1",
+        "ip": "pp.passager.serveureos.org/135.125.34.180",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Grade capped to A. HSTS max-age is too short"
       },
       {
         "id": "scanTime",
         "ip": "pp.passager.serveureos.org/135.125.34.180",
         "port": "443",
         "severity": "INFO",
-        "finding": "183"
+        "finding": "125"
       }
     ],
     "thirdparties": {
-      "trackers": [],
-      "cookies": [],
+      "trackers": [
+        {
+          "type": "google fonts",
+          "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "unknown",
+          "url": "https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"
+        },
+        {
+          "type": "jQuery",
+          "url": "https://code.jquery.com/jquery-3.2.1.slim.min.js",
+          "details": {
+            "id": "jQuery",
+            "message": "Hosts files directly"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/opensans/v34/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/opensans/v34/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        }
+      ],
+      "cookies": [
+        {
+          "name": "PHPSESSID",
+          "value": "6os46fisap30assglfhqck89uo",
+          "domain": ".serveureos.org",
+          "path": "/",
+          "expires": -1,
+          "size": 35,
+          "httpOnly": true,
+          "secure": true,
+          "session": true,
+          "sameSite": "Strict",
+          "sameParty": false,
+          "sourceScheme": "Secure",
+          "sourcePort": 443
+        }
+      ],
       "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate",
         "connection": "keep-alive",
-        "content-length": "568",
-        "content-type": "text/html",
-        "date": "Sun, 01 Jan 2023 01:19:25 GMT",
+        "content-encoding": "gzip",
+        "content-length": "1615",
+        "content-type": "text/html;charset=UTF-8",
+        "date": "Sun, 08 Jan 2023 01:12:29 GMT",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "pragma": "no-cache",
         "server": "nginx",
-        "strict-transport-security": "max-age=2592000; includeSubDomains"
+        "set-cookie": "PHPSESSID=6os46fisap30assglfhqck89uo; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+        "strict-transport-security": "max-age=2592000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN"
       },
       "endpoints": [
         {
@@ -3538,17 +3745,363 @@
               }
             }
           }
+        },
+        {
+          "hostname": "fonts.googleapis.com",
+          "ip": "142.251.163.95",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "getbootstrap.com",
+          "ip": "172.67.30.148",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "code.jquery.com",
+          "ip": "69.16.175.10",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "fonts.gstatic.com",
+          "ip": "142.251.111.94",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
         }
       ]
     },
     "wappalyzer": {
       "urls": {
         "https://pp.passager.serveureos.org/": {
-          "status": 0,
-          "error": "Navigation timeout of 10000 ms exceeded (https://pp.passager.serveureos.org/)"
+          "status": 200
         }
       },
       "technologies": [
+        {
+          "slug": "php",
+          "name": "PHP",
+          "description": "PHP is a general-purpose scripting language used for web development.",
+          "confidence": 100,
+          "version": null,
+          "icon": "PHP.svg",
+          "website": "http://php.net",
+          "cpe": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 27,
+              "slug": "programming-languages",
+              "name": "Programming languages"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "bootstrap",
+          "name": "Bootstrap",
+          "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+          "confidence": 100,
+          "version": "4.0",
+          "icon": "Bootstrap.svg",
+          "website": "https://getbootstrap.com",
+          "cpe": "cpe:2.3:a:getbootstrap:bootstrap:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 66,
+              "slug": "ui-frameworks",
+              "name": "UI frameworks"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "nginx",
+          "name": "Nginx",
+          "description": "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
+          "confidence": 100,
+          "version": null,
+          "icon": "Nginx.svg",
+          "website": "http://nginx.org/en",
+          "cpe": "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 22,
+              "slug": "web-servers",
+              "name": "Web servers"
+            },
+            {
+              "id": 64,
+              "slug": "reverse-proxies",
+              "name": "Reverse proxies"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "jquery-cdn",
+          "name": "jQuery CDN",
+          "description": "jQuery CDN is a way to include jQuery in your website without actually downloading and keeping it your website's folder.",
+          "confidence": 100,
+          "version": null,
+          "icon": "jQuery.svg",
+          "website": "https://code.jquery.com/",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 31,
+              "slug": "cdn",
+              "name": "CDN"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "font-awesome",
+          "name": "Font Awesome",
+          "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+          "confidence": 100,
+          "version": null,
+          "icon": "Font Awesome.svg",
+          "website": "https://fontawesome.com/",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 17,
+              "slug": "font-scripts",
+              "name": "Font scripts"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "jquery",
+          "name": "jQuery",
+          "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+          "confidence": 100,
+          "version": "3.2.1",
+          "icon": "jQuery.svg",
+          "website": "https://jquery.com",
+          "cpe": "cpe:2.3:a:jquery:jquery:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 59,
+              "slug": "javascript-libraries",
+              "name": "JavaScript libraries"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "google-font-api",
+          "name": "Google Font API",
+          "description": "Google Font API is a web service that supports open-source font files that can be used on your web designs.",
+          "confidence": 100,
+          "version": null,
+          "icon": "Google Font API.svg",
+          "website": "http://google.com/fonts",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 17,
+              "slug": "font-scripts",
+              "name": "Font scripts"
+            }
+          ],
+          "rootPath": true
+        },
         {
           "slug": "ovhcloud",
           "name": "OVHcloud",
@@ -3571,12 +4124,299 @@
             }
           ],
           "rootPath": true
+        },
+        {
+          "slug": "hsts",
+          "name": "HSTS",
+          "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+          "confidence": 100,
+          "version": null,
+          "icon": "default.svg",
+          "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 16,
+              "slug": "security",
+              "name": "Security"
+            }
+          ],
+          "rootPath": true
         }
       ]
     },
-    "zap": null,
+    "zap": {
+      "@programName": "OWASP ZAP",
+      "@version": "2.12.0",
+      "@generated": "Sun, 8 Jan 2023 01:11:33",
+      "site": [
+        {
+          "@name": "https://pp.passager.serveureos.org",
+          "@host": "pp.passager.serveureos.org",
+          "@port": "443",
+          "@ssl": "true",
+          "alerts": [
+            {
+              "name": "Absence of Anti-CSRF Tokens",
+              "riskcode": "2",
+              "confidence": "1",
+              "riskdesc": "Medium (Low)",
+              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
+            },
+            {
+              "name": "Content Security Policy (CSP) Header Not Set",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>"
+            },
+            {
+              "name": "Missing Anti-clickjacking Header",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>The response does not include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options to protect against 'ClickJacking' attacks.</p>"
+            },
+            {
+              "name": "Source Code Disclosure - SQL",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>Application Source Code was disclosed by the web server - SQL</p>"
+            },
+            {
+              "name": "Sub Resource Integrity Attribute Missing",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content. </p>"
+            },
+            {
+              "name": "Vulnerable JS Library",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>The identified library jquery, version 3.2.1 is vulnerable.</p>"
+            },
+            {
+              "name": "Cross-Domain JavaScript Source File Inclusion",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>The page includes one or more script files from a third-party domain.</p>"
+            },
+            {
+              "name": "Dangerous JS Functions",
+              "riskcode": "1",
+              "confidence": "1",
+              "riskdesc": "Low (Low)",
+              "desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>"
+            },
+            {
+              "name": "Permissions Policy Header Not Set",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>"
+            },
+            {
+              "name": "X-Content-Type-Options Header Missing",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>"
+            },
+            {
+              "name": "Base64 Disclosure",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>"
+            },
+            {
+              "name": "Information Disclosure - Suspicious Comments",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>"
+            },
+            {
+              "name": "Loosely Scoped Cookie",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>Cookies can be scoped by domain or path. This check is only concerned with domain scope.The domain scope applied to a cookie determines which domains can access it. For example, a cookie can be scoped strictly to a subdomain e.g. www.nottrusted.com, or loosely scoped to a parent domain e.g. nottrusted.com. In the latter case, any subdomain of nottrusted.com can access the cookie. Loosely scoped cookies are common in mega-applications like google.com and live.com. Cookies set from a subdomain like app.foo.bar are transmitted only to that domain by the browser. However, cookies scoped to a parent-level domain may be transmitted to the parent, or any subdomain of the parent.</p>"
+            },
+            {
+              "name": "Modern Web Application",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+            },
+            {
+              "name": "Non-Storable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>"
+            },
+            {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
+              "name": "Storable and Cacheable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>"
+            },
+            {
+              "name": "User Controllable HTML Element Attribute (Potential XSS)",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>"
+            }
+          ]
+        }
+      ]
+    },
     "nuclei": null,
-    "lhr": [],
+    "lhr": [
+      {
+        "requestedUrl": "https://pp.passager.serveureos.org/",
+        "finalUrl": "https://pp.passager.serveureos.org/",
+        "fetchTime": "2023-01-08T01:11:41.207Z",
+        "runWarnings": [],
+        "categories": {
+          "performance": {
+            "title": "Performance",
+            "id": "performance",
+            "score": 0.916537094116211
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+            "id": "accessibility",
+            "score": 0.78
+          },
+          "best-practices": {
+            "title": "Best Practices",
+            "id": "best-practices",
+            "score": 0.8
+          },
+          "seo": {
+            "title": "SEO",
+            "description": "These checks ensure that your page is optimized for search engine results ranking. There are additional factors Lighthouse does not check that may affect your search ranking. [Learn more](https://support.google.com/webmasters/answer/35769).",
+            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+            "id": "seo",
+            "score": 0.92
+          },
+          "pwa": {
+            "title": "Progressive Web App",
+            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+            "id": "pwa",
+            "score": 0.42
+          }
+        },
+        "audits": {
+          "metrics": {
+            "id": "metrics",
+            "title": "Metrics",
+            "description": "Collects all available metrics.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "numericValue": 3118,
+            "numericUnit": "millisecond",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "firstContentfulPaint": 2158,
+                  "firstMeaningfulPaint": 3118,
+                  "largestContentfulPaint": 3950,
+                  "firstCPUIdle": 3118,
+                  "interactive": 3118,
+                  "speedIndex": 2158,
+                  "estimatedInputLatency": 13,
+                  "totalBlockingTime": 0,
+                  "maxPotentialFID": 16,
+                  "cumulativeLayoutShift": 0.03543757332695855,
+                  "cumulativeLayoutShiftAllFrames": 0,
+                  "observedTimeOrigin": 0,
+                  "observedTimeOriginTs": 146218702,
+                  "observedNavigationStart": 0,
+                  "observedNavigationStartTs": 146218702,
+                  "observedFirstPaint": 604,
+                  "observedFirstPaintTs": 146823095,
+                  "observedFirstContentfulPaint": 604,
+                  "observedFirstContentfulPaintTs": 146823095,
+                  "observedFirstMeaningfulPaint": 636,
+                  "observedFirstMeaningfulPaintTs": 146854970,
+                  "observedLargestContentfulPaint": 772,
+                  "observedLargestContentfulPaintTs": 146990218,
+                  "observedTraceEnd": 2321,
+                  "observedTraceEndTs": 148539889,
+                  "observedLoad": 1263,
+                  "observedLoadTs": 147481602,
+                  "observedDomContentLoaded": 756,
+                  "observedDomContentLoadedTs": 146974219,
+                  "observedCumulativeLayoutShift": 0.03543757332695855,
+                  "observedCumulativeLayoutShiftAllFrames": 0,
+                  "observedFirstVisualChange": 608,
+                  "observedFirstVisualChangeTs": 146826702,
+                  "observedLastVisualChange": 1208,
+                  "observedLastVisualChangeTs": 147426702,
+                  "observedSpeedIndex": 645,
+                  "observedSpeedIndexTs": 146863625
+                },
+                {
+                  "lcpInvalidated": false
+                }
+              ]
+            }
+          },
+          "diagnostics": {
+            "id": "diagnostics",
+            "title": "Diagnostics",
+            "description": "Collection of useful page vitals.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "numRequests": 20,
+                  "numScripts": 4,
+                  "numStylesheets": 6,
+                  "numFonts": 2,
+                  "numTasks": 274,
+                  "numTasksOver10ms": 2,
+                  "numTasksOver25ms": 0,
+                  "numTasksOver50ms": 0,
+                  "numTasksOver100ms": 0,
+                  "numTasksOver500ms": 0,
+                  "rtt": 5.256,
+                  "throughput": 24398409.1869914,
+                  "maxRtt": 85.987,
+                  "maxServerLatency": 59.18300000000001,
+                  "totalByteWeight": 1486162,
+                  "totalTaskTime": 116.88100000000007,
+                  "mainDocumentTransferSize": 2170
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
     "screenshot": true,
     "stats": null,
     "github_repository": null,
@@ -3588,17 +4428,27 @@
     "ecoindex": null,
     "summary": {
       "404": "A+",
-      "httpGrade": "D",
+      "httpGrade": "C",
       "nmapGrade": "A",
       "nmapOpenPortsCount": 2,
       "nmapOpenPortsGrade": "A",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2023-02-14T12:12:00.000Z",
-      "testsslGrade": "A+",
-      "cookiesGrade": "A",
-      "cookiesCount": 0,
-      "trackersGrade": "A",
-      "trackersCount": 0
+      "testsslGrade": "A",
+      "cookiesGrade": "B",
+      "cookiesCount": 1,
+      "trackersGrade": "C",
+      "trackersCount": 7,
+      "lighthouse_performance": 0.916537094116211,
+      "lighthouse_performanceGrade": "A",
+      "lighthouse_accessibility": 0.78,
+      "lighthouse_accessibilityGrade": "B",
+      "lighthouse_best-practices": 0.8,
+      "lighthouse_best-practicesGrade": "B",
+      "lighthouse_seo": 0.92,
+      "lighthouse_seoGrade": "A",
+      "lighthouse_pwa": 0.42,
+      "lighthouse_pwaGrade": "D"
     }
   }
 ]
