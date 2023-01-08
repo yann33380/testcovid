@@ -3,8 +3,8 @@
               "id"           : "service",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
-              "severity"     : "DEBUG",
-              "finding"      : "Couldn't determine service, skipping all HTTP checks"
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
@@ -339,7 +339,7 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "44 >= 30 days"
+              "finding"      : "37 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -524,6 +524,126 @@
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "200 OK ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1673140417"
+          }
+,         {
+              "id"           : "HSTS_time",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "max-age too short. 30 days (=2592000 seconds) < 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "includes subdomains"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "domain is NOT marked for preloading"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "nginx"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1 at '/'"
+          }
+,         {
+              "id"           : "cookie_secure",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as HttpOnly"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no-store, no-cache, must-revalidate"
+          }
+,         {
+              "id"           : "Pragma",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no-cache"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
               "id"           : "heartbleed",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
@@ -545,10 +665,10 @@
               "id"           : "ticketbleed",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
-              "severity"     : "INFO",
+              "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "not applicable, not HTTP"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "ROBOT",
@@ -583,7 +703,16 @@
               "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable (not using HTTP anyway)"
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1004,13 +1133,20 @@
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A+"
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "pp.passager.serveureos.org/135.125.34.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS max-age is too short"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "pp.passager.serveureos.org/135.125.34.180",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "183"
+              "finding"      : "125"
           }
 ]

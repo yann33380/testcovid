@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan  1 01:22:42 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pp.passager.serveureos.org
+# Nmap 7.92 scan initiated Sun Jan  8 01:14:48 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pp.passager.serveureos.org
 Host: 135.125.34.180 (mx.serveureos.org)	Status: Up
 Host: 135.125.34.180 (mx.serveureos.org)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
-# Nmap done at Sun Jan  1 01:23:19 2023 -- 1 IP address (1 host up) scanned in 36.87 seconds
+# Nmap done at Sun Jan  8 01:15:10 2023 -- 1 IP address (1 host up) scanned in 21.70 seconds
