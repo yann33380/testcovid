@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 22 Jan 2023 01:11:24",
+	"@generated": "Sun, 29 Jan 2023 01:13:53",
 	"site":[ 
 		{
 			"@name": "https://passager.serveureos.org",
@@ -221,7 +221,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10003",
@@ -340,13 +340,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/js/qrcode.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://passager.serveureos.org/mentions-legales.php",
 							"method": "GET",
 							"param": "",
@@ -382,7 +375,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "8",
+					"count": "7",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -409,6 +402,13 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/css/main.css",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://passager.serveureos.org/img/DE.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -458,13 +458,6 @@
 						},
 						{
 							"uri": "https://passager.serveureos.org/vendor/font-awesome-4.7/css/font-awesome.min.css",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://passager.serveureos.org/vendor/jquery/jquery.min.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -545,7 +538,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10027",
@@ -599,7 +592,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "74"
+					"sourceid": "76"
 				},
 				{
 					"pluginid": "90033",
@@ -628,7 +621,7 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=n0v8n4jddlqio5o1m92b9maiae</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>passager.serveureos.org</p><p>PHPSESSID=81e8kksociuiir23ek2ru3f4v5</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
@@ -737,7 +730,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://passager.serveureos.org/img/logo-gouvernement.png",
+							"uri": "https://passager.serveureos.org/img/FR.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
