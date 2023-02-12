@@ -56,7 +56,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "hced7rhcso84mfobb7t25tj55c",
+      "value": "ffbgoququr18v5ptbhmf68b8kp",
       "domain": ".serveureos.org",
       "path": "/",
       "expires": -1,
@@ -76,11 +76,11 @@
     "content-encoding": "gzip",
     "content-length": "1615",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 05 Feb 2023 01:14:23 GMT",
+    "date": "Sun, 12 Feb 2023 01:15:14 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=hced7rhcso84mfobb7t25tj55c; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
+    "set-cookie": "PHPSESSID=ffbgoququr18v5ptbhmf68b8kp; path=/; domain=.serveureos.org; secure; HttpOnly; SameSite=strict",
     "strict-transport-security": "max-age=2592000; includeSubDomains",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
@@ -91,13 +91,6 @@
       "hostname": "pp.passager.serveureos.org",
       "ip": "135.125.34.180",
       "geoip": {
-        "city": {
-          "geoname_id": 3021930,
-          "names": {
-            "en": "Dadonville",
-            "zh-CN": "达东维尔"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -128,13 +121,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 48.1585,
-          "longitude": 2.2727,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "45300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -150,34 +140,12 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3027939,
-            "iso_code": "CVL",
-            "names": {
-              "de": "Centre-Val de Loire",
-              "en": "Centre-Val de Loire",
-              "es": "Centro-Valle de Loira",
-              "fr": "Centre-Val de Loire"
-            }
-          },
-          {
-            "geoname_id": 2997857,
-            "iso_code": "45",
-            "names": {
-              "de": "Loiret",
-              "en": "Loiret",
-              "es": "Loiret",
-              "fr": "Loiret"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.113.95",
+      "ip": "172.253.122.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -339,7 +307,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.32.131",
+      "ip": "142.251.163.94",
       "geoip": {
         "continent": {
           "code": "NA",
