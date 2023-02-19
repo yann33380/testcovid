@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 12 Feb 2023 01:14:18",
+	"@generated": "Sun, 19 Feb 2023 01:12:16",
 	"site":[ 
 		{
 			"@name": "https://pp.passager.serveureos.org",
@@ -153,7 +153,7 @@
 					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "78"
+					"sourceid": "77"
 				},
 				{
 					"pluginid": "90003",
@@ -221,7 +221,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10003",
@@ -408,6 +408,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://pp.passager.serveureos.org/img/DE.png",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://pp.passager.serveureos.org/img/EN.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -422,7 +429,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pp.passager.serveureos.org/img/logo.png",
+							"uri": "https://pp.passager.serveureos.org/img/logo-gouvernement.png",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -451,13 +458,6 @@
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/vendor/font-awesome-4.7/css/font-awesome.min.css",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://pp.passager.serveureos.org/vendor/jquery/jquery.min.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -592,7 +592,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "76"
 				},
 				{
 					"pluginid": "90033",
@@ -621,11 +621,11 @@
 					],
 					"count": "2",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>pp.passager.serveureos.org</p><p>PHPSESSID=qrhcs27ri76pspr7iun9l796fh</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>pp.passager.serveureos.org</p><p>PHPSESSID=210i53k16vamr634ek2ultri1u</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -677,7 +677,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10015",
@@ -730,6 +730,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://pp.passager.serveureos.org/img/logo-gouvernement.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://pp.passager.serveureos.org/js/global.js",
 							"method": "GET",
 							"param": "",
@@ -759,13 +766,6 @@
 						},
 						{
 							"uri": "https://pp.passager.serveureos.org/vendor/font-awesome-4.7/css/font-awesome.min.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://pp.passager.serveureos.org/vendor/jquery/jquery.min.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -902,7 +902,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "78"
+					"sourceid": "77"
 				}
 			]
 		}
