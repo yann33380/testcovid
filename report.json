@@ -2092,7 +2092,7 @@
         }
       ]
     },
-    "nuclei": null,
+    "nuclei": [],
     "lhr": [
       {
         "requestedUrl": "https://passager.serveureos.org/",
@@ -2227,7 +2227,6 @@
     "stats": null,
     "github_repository": null,
     "budget_page": null,
-    "trivy": null,
     "declaration-a11y": null,
     "declaration-rgpd": null,
     "betagouv": null,
@@ -4295,7 +4294,7 @@
         }
       ]
     },
-    "nuclei": null,
+    "nuclei": [],
     "lhr": [
       {
         "requestedUrl": "https://pp.passager.serveureos.org/",
@@ -4430,7 +4429,6 @@
     "stats": null,
     "github_repository": null,
     "budget_page": null,
-    "trivy": null,
     "declaration-a11y": null,
     "declaration-rgpd": null,
     "betagouv": null,
