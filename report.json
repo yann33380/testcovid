@@ -2232,6 +2232,7 @@
     "betagouv": null,
     "ecoindex": null,
     "sonarcloud": null,
+    "dsfr": null,
     "summary": {
       "404": "A+",
       "httpGrade": "C",
@@ -4434,6 +4435,7 @@
     "betagouv": null,
     "ecoindex": null,
     "sonarcloud": null,
+    "dsfr": null,
     "summary": {
       "404": "A+",
       "httpGrade": "C",
